@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JuolinLee</title>
+    <!-- GoogleFont 字體'Noto Serif TC', serif -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href=" https://unpkg.com/ress/dist/ress.min.css ">
+    <link rel="stylesheet" href="./Performance.css">
+    <link rel="stylesheet" href="./RWD/PerformanceRWD.css">
+    <!-- js -->
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <script src="./js/index.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <!-- Nav-->
+        <nav id="nav">
+            <!-- Social media -->
+            <div class="SocialMedia">
+                <a href="https://www.facebook.com/juolin.lee" target="_blank"><img src="./Logo&Icons/Facebook.svg"
+                        alt=""></a>
+                <a href="https://www.instagram.com/juolinlee/" target="_blank"><img src="./Logo&Icons/Instagram.svg"
+                        alt=""></a>
+            </div>
+            <ul class="links">
+                <li>
+                    <a href="./index.html#bio" class="scroll-link">About.</a>
+                </li>
+                <li>
+                    <a href="./index.html#Work1" class="scroll-link">Work.</a>
+                </li>
+                <!-- logo -->
+                <li>
+                    <a href="./index.html#header">
+                        <img src="./Logo&Icons/LOGO-Orange.svg" alt="logo" />
+                    </a>
+                </li>
+                <li>
+                    <a href="./index.html#Performance" class="scroll-link">Performance.</a>
+                </li>
+                <li>
+                    <a href="./index.html#Contact" class="scroll-link">Contact me.</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Nav2-->
+        <nav id="nav_small">
+            <!-- logo -->
+            <div class="logo">
+                <a href="#header">
+                    <img src="./Logo&Icons/LOGO-Orange.svg" alt="logo" />
+                </a>
+            </div>
+            <!-- sidebar button -->
+            <div class="sidebar_switch">
+                <button id="open" onclick="sidebar_open()"> <img
+                        src="./Logo&Icons/ICON-Default/Property 1=view-list.svg" alt=""></button>
+
+                <button id="close" onclick="sidebar_close()"><img src="./Logo&Icons/ICON-Default/Property 1=close.svg"
+                        alt=""></button>
+            </div>
+            <!-- Social media -->
+            <div class="SocialMedia">
+                <a href="https://www.facebook.com/juolin.lee" target="_blank">
+                    <img src="./Logo&Icons/Facebook.svg" alt=""></a>
+                <a href="https://www.instagram.com/juolinlee/" target="_blank">
+                    <img src="./Logo&Icons/Instagram.svg" alt=""></a>
+            </div>
+            <div id="sidebar">
+                <a onclick="sidebar_close()" href="./index.html#nav_bio">About.</a>
+                <a onclick="sidebar_close()" href="./index.html#nav_Work1">Work.</a>
+                <a onclick="sidebar_close()" href="./index.html#nav_Performance">Performance.</a>
+                <a onclick="sidebar_close()" href="./index.html#nav_Contact">Contact me.</a>
+            </div>
+        </nav>
+
+        <!-- 標題 -->
+        <p class="Title">Performance Info.</p>
+        <!-- 表演資訊1 -->
+        <div class="block">
+            <img src="./WebsiteMaterial/Performance/BabyUniverseRMT/IMG0644.jpg" alt="">
+            <div class="intro">
+                <!-- 作品名稱 -->
+                <div class="PerformanceName">
+                    Baby Universe, RMT
+                </div>
+                <!-- 狀態 -->
+                <div class="PerformanceStatus">
+                    in indevelopment
+                </div>
+                <div class="Performance-info">
+                    <!-- Producer -->
+                    <p>By Hong Kong Exile, Choreographed by Natalie TY Gan</p>
+                    <!-- 表演時間 -->
+                    <p>Performance：Feb 4th 2023, 2pm & 9pm</p>
+                    <!-- 表演地點 -->
+                    <p>Location：Russian Hall</p>
+                </div>
+                <!-- 介紹文字 -->
+                <div class="introtxt">
+                    <p>A program a part of PushOff 2023 Festival.
+                        A multimedia dance-theatre work currently in research and
+                        tdevelopment phase that conjures spirit and story through light play and
+                        radio frequency. Think lo-fi outer space lecture meets holida
+                        in the Holosuites.</p>
+                </div>
+                <!-- 按鈕 -->
+                <div class="button">
+                    <a class="MoreInfo" href="https://www.pushoff.org/live/baby-universe-rmt" target="_blank">
+                        <p>More Info</p>
+                        <div class="svg"></div>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        <!-- 表演資訊2 -->
+        <div class="block">
+            <div class="intro">
+                <!-- 作品名稱 -->
+                <div class="PerformanceName">
+                    You Touch Me
+                </div>
+                <!-- 狀態 -->
+                <!-- <div class="PerformanceStatus">
+            in indevelopment
+        </div> -->
+                <div class="Performance-info">
+                    <!-- Producer -->
+                    <p>Ensemble work by Arash Khakpour and Emmalena Fredriksson</p>
+                    <!-- 表演時間 -->
+                    <p>Performance：Feb 4th 2023, 2pm & 9pm</p>
+                    <!-- 表演地點 -->
+                    <p>Location：The Dance Centre</p>
+                </div>
+                <!-- 介紹文字 -->
+                <div class="introtxt">
+                    <p>The Dance Centre_Global Dance Connections Series.
+                        You Touch Me weaves an intricate web of duets within an ensemble of
+                        people who grew up far from here - and far from each other.
+                        Using dance and text, their encounters investigate notions of 'self'
+                        and 'other', cultural identity, race and gender.</p>
+                </div>
+                <!-- 按鈕 -->
+                <div class="button">
+                    <a class="MoreInfo"
+                        href="https://thedancecentre.ca/event/arash-khakpour-and-emmalena-fredriksson-2022/?gclid=Cj0KCQiAg_KbBhDLARIsANx7wAw7mSUZVSfmzUgkJjUPd0mE_NWagJYkmR-Lm1UmhnkAbAuJ_zDL9JwaAhQSEALw_wcB"
+                        target="_blank">
+                        <p>More Info</p>
+                        <div class="svg"></div>
+                    </a>
+                </div>
+            </div>
+            <img class="block-order"
+                src="./WebsiteMaterial/Performance/YouTouchMe/Screen Shot 2022-11-22 at 10.27.24 PM.png" alt="">
+        </div>
+        <!-- 表演資訊3 -->
+        <div class="block">
+            <img src="./WebsiteMaterial/Performance/DaydreamShadow/Under the table.png" alt="">
+            <div class="intro">
+                <!-- 作品名稱 -->
+                <div class="PerformanceName">
+                    Daydream Shadow
+                </div>
+                <!-- 狀態 -->
+                <!-- <div class="PerformanceStatus">
+            in indevelopment
+        </div> -->
+                <div class="Performance-info">
+                    <!-- Producer -->
+                    <p>Solo, Choreographed by Ziyian Kwan</p>
+                    <!-- 表演時間 -->
+                    <p>Performance：Nov 4th, 5th 2022, 7pm</p>
+                    <!-- 表演地點 -->
+                    <p>Location： The Dance Centre</p>
+                </div>
+                <!-- 介紹文字 -->
+                <div class="introtxt">
+                    <p>Performed and Commissioned by Juolin Lee A solo opener for Shion
+                        Skye Carter's Iris Garland Emerging Choreographer Award,
+                        presented through The Dance Centre.
+                        Entitled Daydream Shadow, the work is at tone poem that captures
+                        Kwan’s vivid imagery in tandem with Lee’s physical prowess.</p>
+                </div>
+                <!-- 按鈕 -->
+                <div class="button">
+                    <a class="MoreInfo" href="https://thedancecentre.ca/event/shion-skye-carter/" target="_blank">
+                        <p>More Info</p>
+                        <div class="svg"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- 表演資訊4 -->
+        <div class="block">
+            <div class="intro">
+                <!-- 作品名稱 -->
+                <div class="PerformanceName">
+                    Guide My Way
+                </div>
+                <!-- 狀態 -->
+                <!-- <div class="PerformanceStatus">
+            in indevelopment
+        </div> -->
+                <div class="Performance-info">
+                    <!-- Producer -->
+                    <p>Duet, Chreography by Shion Skye Carter</p>
+                    <p>A music concert celebrating original music from Sedna</p>
+                    <!-- 表演時間 -->
+                    <p>Performance：Aug 12th 2022, 8pm</p>
+                    <!-- 表演地點 -->
+                    <p>Location：York Theatre</p>
+                </div>
+                <!-- 介紹文字 -->
+                <div class="introtxt">
+                    <p>The Guide My Way concert premieres the music from Sedna.
+                        Three singers accompany by two dancers. Directed by Corey Payette.
+                        Produced by Urban Ink</p>
+                </div>
+                <!-- 按鈕 -->
+                <div class="button">
+                    <a class="MoreInfo" href="https://urbanink.ca/sedna-concert/" target="_blank">
+                        <p>More Info</p>
+                        <div class="svg"></div>
+                    </a>
+                </div>
+            </div>
+            <img class="block-order"
+                src="./WebsiteMaterial/Performance/GuideMyWay/Screen Shot 2022-11-22 at 9.58.09 PM.png " alt="">
+        </div>
+        <!-- 表演資訊5 -->
+        <div class="block block-options">
+            <img src="./WebsiteMaterial/Performance/FunkyFungi/IMG_1825_edited.png" alt="">
+            <div class="intro">
+                <!-- 作品名稱 -->
+                <div class="PerformanceName">
+                    Funky Fungi
+                </div>
+                <!-- 狀態 -->
+                <!-- <div class="PerformanceStatus">
+            in indevelopment
+        </div> -->
+                <div class="Performance-info">
+                    <!-- Producer -->
+                    <p>Duet by Katie Cassady</p>
+                    <!-- 表演時間 -->
+                    <p>Performance & Location：</p>
+                    <p>SKAMPede｜July 8th-10th 2022 at Millenium Square Park, Victoria</p>
+                    <p>New Works｜July 17th 2022, 3pm at Granville Island, Vancouver</p>
+                    <!-- 表演地點 -->
+                    <!-- <p>Location：Russian Hall</p> -->
+                </div>
+                <!-- 介紹文字 -->
+                <div class="introtxt">
+                    <p>Outdoor performance.
+                        funky fungi is a contemporary dance duet focussed on interpreting
+                        and expressing the existence of fungi,
+                        focussing on mycelia networks and mushrooms.</p>
+                </div>
+                <!-- 按鈕 -->
+
+                <ul class="button-option">
+                    <li>
+                        <a href="#option-list" class="MoreInfo" onclick="list_open()" type="button">
+                            <p>More Info</p>
+                            <div class="svg"></div>
+                            <img src="./Logo&Icons/ICON-White/chevron-down.svg" alt="">
+                        </a>
+                        <ul id="option-list">
+                            <li class="options"><a class="MoreInfo" href="#">
+                                    <p>SKAMPede</p>
+                                    <div class="svg-option"></div>
+                                </a></li>
+                            <li class="options"><a class="MoreInfo" href="#">
+                                    <p>New Works<div class="svg-option"></div>
+                                </a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <!-- top鈕 -->
+        <a href="#" id="fixedTop"><img src="./Logo&Icons/ICON-White/arrow-right.svg" alt=""></a>
+    </div>
+    <!-- Footer -->
+    <div id="Footer">
+        <img src="./Logo&Icons/LOGO-White.svg" alt="">
+        <div class="info">
+            <p class="Subtitle">Photo Credits </p>
+            <p>Erik Zennstrom -- Banner Photo</p>
+            <p>Chris Randle -- Bio & Gallery Photos</p>
+        </div>
+        <div class="info">
+            <p class="Subtitle">Contact Me </p>
+            <p>Email -- juolinlee@gmail.com</p>
+            <p>instagram -- <a href="https://www.instagram.com/juolinlee/">@juolinlee</a></p>
+        </div>
+    </div>
+</body>
+
+</html>

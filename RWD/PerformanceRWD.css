@@ -1,0 +1,664 @@
+/* 1440 */
+@media(min-width:1366px) and (max-width:1919px) {
+    .container {
+        width: 1440px;
+        margin: 0 auto;
+    }
+
+    /* nav */
+    nav {
+        width: 1440px;
+    }
+
+    #nav .SocialMedia img {
+        width: 44px;
+        margin-top: 18px;
+    }
+
+    #nav .SocialMedia {
+        margin-right: 40px;
+    }
+
+    #nav ul {
+        margin-right: 90px;
+    }
+
+    #nav .links a {
+        width: 165px;
+    }
+
+    #nav a {
+        line-height: 80px;
+        font-size: 1.25rem;
+    }
+
+    #nav ul li img {
+        width: 165px;
+        height: 57px;
+        margin-top: 11.5px;
+    }
+
+    #nav ul li {
+        margin: 0 23px;
+    }
+
+
+    /* Performance */
+    /* 區標題 */
+    .Title {
+        font-size: 5rem;
+        letter-spacing: 0.6rem;
+        width: 1300px;
+        height: 100px;
+        line-height: 150px;
+        text-align: center;
+        margin: 80px auto;
+        margin-top: 120px;
+    }
+
+    /* 表演資訊 */
+    .block {
+        width: 1440px;
+    }
+
+    .intro {
+        width: 720px;
+        height: 514px;
+    }
+
+    .block img {
+        width: 720px;
+        height: 514px;
+    }
+
+    /* 介紹文字 */
+    .PerformanceName {
+        font-size: 2.5rem;
+        line-height: 5rem;
+    }
+
+    .block-options .PerformanceName {
+        margin-top: 20px;
+    }
+
+    .PerformanceStatus {
+        width: 180px;
+        height: 36px;
+        line-height: 36px;
+        margin: 8px auto;
+        font-size: 1rem;
+    }
+
+    .Performance-info {
+        margin-top: 8px;
+    }
+
+    .Performance-info p {
+        font-size: 1.125rem;
+        margin-bottom: 4px;
+        line-height: 2.25rem;
+    }
+
+    .introtxt p {
+        line-height: 2rem;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .introtxt {
+        margin: 16px auto;
+        width: 660px;
+
+    }
+
+    /* 按鈕-無選項 */
+    .button .svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    .intro a {
+        width: 300px;
+        height: 46px;
+        font-size: 1rem;
+        border: 2px solid #CA5500;
+        box-shadow: 0px 2px 4px rgba(82, 59, 35, 0.6);
+        margin-bottom: 40px;
+        margin-top: 4px;
+    }
+
+   
+
+    /* 按鈕-有選項 */
+    .button-option .svg,.svg-option {
+        width: 24px;
+        height: 24px;
+    }
+
+    .button-option ul li a {
+        padding-left: 16px;
+        padding-right: 16px;
+        width: 300px;
+        height: 46px;
+        font-size: 1rem;
+        border: 2px solid #CA5500;
+    }
+
+
+    /* top */
+    #fixedTop {
+        width: 52px;
+        height: 52px;
+        line-height: 62px;
+        right: 100px;
+        bottom: 100px;
+    }
+
+    #fixedTop img {
+        width: 24px;
+        height: 24px;
+    }
+
+
+    /* Footer */
+    #Footer {
+        width: 100%;
+        height: 140px;
+    }
+
+    #Footer img {
+        width: 200px;
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+
+    #Footer .info {
+        width: 300px;
+        height: 85px;
+        margin-left: 80px;
+        margin-top: 28px;
+        padding-left: 16px;
+    }
+
+    #Footer .info p {
+        font-size: 0.875rem;
+        line-height: 1.75rem;
+    }
+
+    #Footer .info .Subtitle {
+        font-size: 1.125rem;
+        line-height: 1.575;
+    }
+}
+
+/* 768 */
+@media(min-width:768px) and (max-width:1365px) {
+    .container {
+        width: 768px;
+        margin: 0 auto;
+    }
+
+    /* nav */
+    nav {
+        width: 768px;
+        height: 60px;
+    }
+
+    #nav .SocialMedia img {
+        display: none;
+    }
+
+    #nav ul {
+        margin-right: 19px;
+    }
+
+    #nav .links a {
+        width: 130px;
+    }
+
+    #nav a {
+        line-height: 60px;
+        font-size: 1rem;
+    }
+
+    #nav ul li img {
+        width: 130px;
+        height: 40px;
+    }
+
+    #nav ul li {
+        margin: 0 10px;
+    }
+
+
+    /* Performance */
+    /* 區標題 */
+    .Title {
+        line-height: 5rem;
+        margin: 60px auto;
+        margin-top: 120px;
+        font-size: 2.5rem;
+        letter-spacing: 0.4rem;
+        height: 80px;
+        width: 768px;
+        text-align: center;
+    }
+
+    /* 表演資訊 */
+    .block {
+        width: 700px;
+        flex-direction: column;
+        margin: 0 auto;
+        /* border: 1px solid red; */
+    }
+
+    /* 換順序 */
+    .block-order {
+        order: -1;
+    }
+
+    .intro {
+        width: 700px;
+        height: 500px;
+    }
+
+    .block img {
+        width: 700px;
+        height: 500px;
+    }
+
+    /* 介紹文字 */
+    .PerformanceName {
+        font-size: 2rem;
+        line-height: 4rem;
+    }
+
+    .block-options .PerformanceName {
+        margin-top: 40px;
+    }
+
+    .PerformanceStatus {
+        width: 180px;
+        height: 36px;
+        line-height: 36px;
+        margin: 4px auto;
+        font-size: 1rem;
+    }
+
+    .Performance-info {
+        margin-top: 8px;
+    }
+
+    .Performance-info p {
+        font-size: 1.125rem;
+        margin-bottom: 4px;
+        line-height: 2.25rem;
+    }
+
+    .introtxt p {
+        line-height: 2rem;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .introtxt {
+        margin: 12px auto;
+        width: 660px;
+    }
+
+    /* 按鈕-無選項 */
+    .button a .svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    .intro a {
+        width: 200px;
+        height: 32px;
+        font-size: 0.75rem;
+        border: 1px solid #CA5500;
+        box-shadow: 0px 2px 4px rgba(82, 59, 35, 0.6);
+        margin-bottom: 20px;
+        margin-top: 8px;
+    }
+
+    /* 按鈕-有選項 */
+    .button-option a .svg,.svg-option {
+        width: 16px;
+        height: 16px;
+    }
+
+    .button-option ul li a {
+        padding-left: 16px;
+        padding-right: 16px;
+        width: 200px;
+        height: 32px;
+        font-size: 0.75rem;
+        border: 1px solid #CA5500;
+    }
+
+   
+
+
+
+    /* top */
+    #fixedTop {
+        width: 52px;
+        height: 52px;
+        line-height: 62px;
+        right: 40px;
+        bottom: 80px;
+    }
+
+    #fixedTop img {
+        width: 24px;
+        height: 24px;
+    }
+
+    /* Footer */
+    #Footer {
+        width: 100%;
+        height: 120px;
+    }
+
+    #Footer img {
+        width: 128px;
+        margin-left: 28px;
+        margin-top: 16px;
+
+    }
+
+    #Footer .info {
+        width: 360px;
+        height: 88px;
+        margin-left: 20px;
+        margin-top: 16px;
+        padding-left: 16px;
+    }
+
+    #Footer .info p {
+        font-size: 0.875rem;
+        letter-spacing: 0.02rem;
+        line-height: 1.75rem;
+    }
+
+    #Footer .info .Subtitle {
+        font-size: 1.125rem;
+        line-height: 1.575;
+    }
+}
+
+/* 375 */
+@media(max-width:767px) {
+    body {
+        background-color: #FCF3EA;
+        background-image: none;
+    }
+
+    .container {
+        width: 375px;
+        margin: 0 auto;
+    }
+
+    /* nav */
+    #nav {
+        display: none;
+    }
+
+    #nav_small {
+        display: block;
+        width: 375px;
+        height: 40px;
+        z-index: 99999;
+        position: fixed;
+        top: 0;
+        padding: 0;
+        overflow: visible;
+        padding-top: 8px;
+        padding-right: 16px;
+    }
+
+    #nav_small .logo img {
+        height: 28px;
+        float: left;
+    }
+
+    #nav_small .SocialMedia img {
+        width: 32px;
+        height: 32px;
+        float: right;
+        margin-top: 0;
+    }
+
+    #nav_small .SocialMedia {
+        margin-right: 0;
+    }
+
+    #nav_small #close {
+        display: none;
+        transition: all 1s;
+    }
+
+    #nav_small .sidebar_switch {
+        width: 32px;
+        height: 32px;
+        float: right;
+        position: relative;
+    }
+
+
+    #nav_small button img {
+        width: 32px;
+        height: 32px;
+        float: right;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+
+    #nav_small #sidebar {
+        width: 140px;
+        height: 360px;
+        background-color: rgba(252, 243, 234, 0.9);
+        padding: 40px 0;
+        position: absolute;
+        right: 0;
+        top: 48px;
+        display: none;
+        box-shadow: 0px 2px 2px rgba(82, 59, 35, 0.3);
+    }
+
+    #nav_small #sidebar a {
+        display: block;
+        margin-bottom: 24px;
+        margin-left: 16px;
+        text-decoration: none;
+        color: #D98A3B;
+        font-size: 0.75rem;
+        line-height: 1.5rem;
+    }
+
+    /* Performance */
+    /* 區標題 */
+    .Title {
+        line-height: 4rem;
+        margin: 40px auto;
+        margin-top: 60px;
+        font-size: 2rem;
+        letter-spacing: 0.04rem;
+        height: 64px;
+        width: 375px;
+        text-align: center;
+    }
+
+    /* 表演資訊 */
+    .block {
+        width: 375px;
+        flex-direction: column;
+        margin: 0 auto;
+        /* border: 1px solid red; */
+    }
+
+    /* 換順序 */
+    .block-order {
+        order: -1;
+    }
+
+    .intro {
+        width: 348px;
+        height: 400px;
+        align-items: flex-start;
+    }
+
+    .block img {
+        width: 375px;
+        height: 268px;
+    }
+
+    /* 介紹文字 */
+    .PerformanceName {
+        font-size: 1.5rem;
+        line-height: 2.1rem;
+    }
+
+    .block-options .PerformanceName {
+        margin-top: 16px;
+    }
+
+    .PerformanceStatus {
+        width: 128px;
+        height: 26px;
+        font-size: 0.75rem;
+        line-height: 1.5rem;
+        margin: 0;
+        margin-top: 16px;
+    }
+
+    .Performance-info {
+        margin-top: 8px;
+        width: 375px;
+    }
+
+    .Performance-info p {
+        font-size: 0.75rem;
+        margin-bottom: 4px;
+        line-height: 1.5rem;
+        letter-spacing: 0.02rem;
+        text-align: start;
+    }
+
+    .introtxt p {
+        line-height: 1.5rem;
+        font-size: 0.75rem;
+        font-weight: 400;
+        letter-spacing: 0.02rem;
+        text-align: start;
+
+    }
+
+    .introtxt {
+        margin: 8px auto;
+        width: 347px;
+    }
+
+    /* 按鈕-無選項 */
+    .button{
+       align-self: center;
+
+    }
+
+    .intro a {
+        width: 200px;
+        height: 32px;
+        font-size: 0.75rem;
+        background-color: #CA5500;
+        color: #fff;
+        box-shadow: 0px 2px 4px rgba(82, 59, 35, 0.6);
+        margin-bottom: 16px;
+        margin-top: 12px;
+    }
+
+    .button .svg,.button-option .svg{
+       display: none;
+    }
+
+
+    /* 按鈕-有選項 */
+    .button-option{
+       align-self: center;
+       margin-top: 12px;
+    }
+
+    .button-option img{
+        display: block;
+        width: 16px;
+        height: 16px;
+        margin-left: 8px;
+    }
+
+    .button-option .svg,.svg-option {
+        width: 16px;
+        height: 16px;
+    }
+
+    .button-option ul li a {
+        padding-left: 16px;
+        padding-right: 16px;
+        width: 200px;
+        height: 32px;
+        font-size: 0.75rem;
+        border: 1px solid #CA5500;
+        
+    }
+
+
+    /* top */
+    #fixedTop {
+        width: 40px;
+        height: 40px;
+        line-height: 42px;
+        right: 20px;
+        bottom: 40px;
+    }
+
+    #fixedTop img {
+        width: 16px;
+        height: 16px;
+    }
+
+    /* Footer */
+    #Footer {
+        width: 100%;
+        height: 328px;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    #Footer img {
+        width: 128px;
+        margin-left: 0px;
+        margin-top: 24px;
+    }
+
+    #Footer .info {
+        width: 360px;
+        height: 88px;
+        margin-left: 20px;
+        margin-top: 32px;
+        padding-left: 16px;
+    }
+
+    #Footer .info p {
+        font-size: 0.875rem;
+        letter-spacing: 0.02rem;
+        line-height: 1.75rem;
+    }
+
+
+    #Footer .info .Subtitle {
+        font-size: 1.125rem;
+        line-height: 1.575;
+    }
+
+}

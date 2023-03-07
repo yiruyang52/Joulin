@@ -1,0 +1,271 @@
+body {
+    width: 100%;
+    font-family: 'Noto Serif TC', 'Noto Serif', serif;
+    letter-spacing: 0.04rem;
+    background-image: url(./Logo&Icons/bg-line.svg), linear-gradient(90deg, #F2F6FF 50%, transparent 50%), linear-gradient(90deg, #FCF3EA 100%, transparent 100%);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+html{
+    scroll-behavior: smooth;
+  }
+
+.container {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.button {
+    display: none;
+}
+
+/* Nav */
+
+#nav_small {
+    display: none;
+}
+
+nav {
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    padding: 0;
+    width: 1920px;
+    height: 80px;
+    overflow: hidden;
+}
+
+#nav .SocialMedia a {
+    float: right;
+}
+
+#nav .SocialMedia img {
+    width: 60px;
+    margin-top: 10px;
+}
+
+#nav .SocialMedia {
+    float: right;
+    margin-right: 60px;
+}
+
+#nav ul {
+    float: right;
+    margin-right: 90px;
+}
+
+#nav ul li {
+    list-style: none;
+    text-align: center;
+    float: left;
+    margin: 0 27px;
+
+}
+
+
+
+#nav ul li:nth-child(5) {
+    margin-right: 0;
+}
+
+#nav ul li:nth-child(1) {
+    margin-left: 0;
+}
+
+#nav ul li img {
+    height: 57px;
+    margin-top: 11.5px;
+}
+
+
+#nav a {
+    display: block;
+    line-height: 80px;
+    text-decoration: none;
+    color: #F4C494;
+    font-size: 1.5rem;
+}
+
+#nav a:hover {
+    color: #D98A3B;
+    transform: scale(1.01);
+    transition: all;
+}
+
+#nav .links a {
+    width: 233px;
+}
+
+/* bg */
+
+
+#bg-txt {
+    position: fixed;
+    top: 0;
+    margin-top: 80px;
+    padding-left: 140px;
+    padding-right: 140px;
+    width: 1920px;
+    height: 1020px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: -1;
+}
+
+#bg-txt .txt1 {
+    width: 120px;
+    height: 840px;
+
+
+}
+
+#bg-txt .txt2 {
+    width: 120px;
+    height: 742px;
+    margin-top: 278px;
+
+}
+
+/* header */
+#header {
+    width: 1920px;
+    margin-top: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+#header img {
+    width: 467px;
+    height: auto;
+    z-index: 9999;
+    box-shadow: 2px 2px 2px rgba(82, 59, 35, 0.3);
+}
+
+#header .right-intro {
+    width: 1200px;
+}
+
+#header .Title {
+    font-size: 7.5rem;
+    color: #D98A3B;
+    font-weight: bold;
+    letter-spacing: 0.6rem;
+    font-weight: bold;
+    line-height: 150px;
+    margin-bottom: 20px;
+}
+
+#header .introtxt {
+    width: 1120px;
+}
+
+#header .introtxt p {
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    color: #523B23;
+}
+
+/* content */
+/* video */
+.video {
+    width: 1200px;
+    height: 674px;
+    margin: 0 auto;
+    margin-top: 140px;
+    box-shadow: 2px 2px 2px rgba(82, 59, 35, 0.3);
+}
+
+
+
+/* 作品照片 */
+
+/* content */
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1480px;
+    margin: 80px auto;
+}
+
+.content .deco-txt {
+    width: 351px;
+    height: 100px;
+    margin: auto 0;
+    margin-left: 140px;
+}
+
+.content .left-content {
+    width: 740px;
+}
+
+
+/* 其他資訊 */
+.Work-info {
+    width: 740px;
+}
+
+.Work-info p {
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    color: #523B23;
+}
+
+/* top */
+#fixedTop {
+    background-color: #CA5500;
+    width: 60px;
+    height: 60px;
+    display: block;
+    text-align: center;
+    line-height: 70px;
+    transform: rotate(270deg);
+    border-radius: 40px;
+    box-shadow: -2px 0px 4px rgba(82, 59, 35, 1);
+    position: fixed;
+    right: 160px;
+    bottom: 100px;
+    z-index: 9999;
+}
+
+/* Footer */
+#Footer {
+    width: 100%;
+    height: 200px;
+    background-color: #D98A3B;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+#Footer img {
+    width: 233px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+#Footer .info {
+    color: #fff;
+    width: 400px;
+    height: 119px;
+    font-size: 1.25rem;
+    line-height: 40px;
+    margin-left: 120px;
+    margin-top: 20px;
+    padding-left: 20px;
+    border-left: 1px solid #fff;
+}
+
+#Footer .info .Subtitle {
+    font-size: 1.5rem;
+    line-height: 40px;
+}
+
+#Footer a {
+    color: #fff;
+}

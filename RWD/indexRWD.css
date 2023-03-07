@@ -1,0 +1,1701 @@
+/* 1440 */
+@media(min-width:1366px) and (max-width:1919px) {
+    .container {
+        width: 1440px;
+        margin: 0 auto;
+    }
+
+    /* nav */
+    nav {
+        width: 1440px;
+    }
+
+    #nav .SocialMedia img {
+        width: 44px;
+        margin-top: 18px;
+    }
+
+    #nav .SocialMedia {
+        margin-right: 40px;
+    }
+
+    #nav ul {
+        margin-right: 90px;
+    }
+
+    #nav .links a {
+        width: 165px;
+    }
+
+    #nav a {
+        line-height: 80px;
+        font-size: 1.25rem;
+    }
+
+    #nav ul li img {
+        width: 165px;
+        height: 57px;
+        margin-top: 11.5px;
+    }
+
+    #nav ul li {
+        margin: 0 23px;
+    }
+
+    /* header */
+    .container #header {
+        width: 1440px;
+        height: 800px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    #carousel {
+        position: absolute;
+        width: auto;
+        height: 1080px;
+        top: 0;
+        left: 0;
+    }
+
+    .container #header img {
+        width: 1440px;
+        height: auto;
+        vertical-align: bottom;
+    }
+
+    .container #header .Title {
+        font-size: 4.38rem;
+    }
+
+    .container #header .Subtitle {
+        font-size: 1.5rem;
+    }
+
+    .container #header .Titles {
+        position: absolute;
+        z-index: 9999;
+        top: 284px;
+        right: 56px;
+
+    }
+
+    /* bio */
+    #bio {
+        height: 800px;
+        width: 1440px;
+        margin: 0 auto;
+    }
+
+    #bio img {
+        left: 28px;
+        width: 72px;
+        height: 597px;
+    }
+
+    .biotxt-Bg {
+        width: 1336px;
+        height: 688px;
+        left: 52px;
+    }
+
+    .biotxt {
+        width: 1244px;
+        height: 361px;
+        margin-left: 72px;
+    }
+
+    .biotxt p {
+        font-size: 1.125rem;
+        line-height: 1.575rem;
+        margin-bottom: 24px;
+    }
+
+    /* Work1 */
+    #Work1 {
+        height: 1140px;
+        width: 1440px;
+        margin: 0 auto;
+    }
+
+    #Work1 .Title {
+        font-size: 5rem;
+        letter-spacing: 0.6rem;
+        line-height: 6.25rem;
+        width: 316px;
+        height: 100px;
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-bottom: 124px;
+    }
+
+    /* 照片 */
+    /* 左區照片 */
+    #Work1 .left-img img {
+        width: 360px;
+        height: 600px;
+    }
+
+    /* 右區照片 */
+    #Work1 .right-img img {
+        width: 420px;
+        height: 280px;
+        margin-left: 60px;
+    }
+
+
+
+    /* 右區副標題＆底線 */
+
+    #Work1 .Subtitle-Line img {
+        width: 600px;
+        padding-top: 16px;
+        margin-left: 20px;
+    }
+
+    #Work1 .Subtitle {
+        font-size: 1.25rem;
+        line-height: 2.5rem;
+    }
+
+    /* 右區作品標題 */
+    #Work1 .WorkName {
+        font-size: 5rem;
+        letter-spacing: 0.6rem;
+        line-height: 6.2.5rem;
+        height: 100px;
+        margin-bottom: 28px;
+
+    }
+
+    /* 右區作品介紹文字 */
+    #Work1 .introtxt {
+        margin-bottom: 40px;
+        width: 840px;
+    }
+
+    #Work1 .introtxt p {
+        font-size: 0.875rem;
+        line-height: 1.75rem;
+    }
+
+    /* 按鈕 */
+
+    #Work1 .right-intro a {
+        width: 160px;
+        height: 44px;
+        font-size: 1.125rem;
+        margin-bottom: 40px;
+    }
+
+    #Work1 .right-intro a .svg {
+        width: 24px;
+        height: 24px;
+    }
+
+
+    /* 右區排列 */
+    #Work1 .right-intro {
+        width: 900px;
+    }
+
+
+    /* Work2 */
+    #Work2 .Subtitle {
+        font-size: 1.25rem;
+        line-height: 2.5rem;
+        margin-bottom: 40px;
+        margin-top: 44px;
+    }
+
+    #Work2 .work-img {
+        width: 300px;
+        height: 450px;
+        margin-bottom: 40px;
+    }
+
+    #Work2 .work-img img {
+        width: 300px;
+        height: 450px;
+    }
+
+
+    #Work2 .Box .work-img a {
+        width: 300px;
+        height: 450px;
+        font-size: 1.5rem;
+    }
+
+    #Work2 .work-img a:hover {
+        line-height: 450px;
+        font-size: 1.5rem;
+    }
+
+    /* 按鈕 */
+    #Work2 .button a {
+        width: 300px;
+        height: 46px;
+        font-size: 1.125rem;
+    }
+
+    #Work2 .Work-List {
+        width: 973px;
+        height: 536px;
+    }
+
+    #Work2 .button a .svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    /* Curiosity */
+
+    #Curiosity {
+        height: 256px;
+        width: 1440px;
+        margin: 0 auto;
+        margin-top: 52px;
+    }
+
+    #Curiosity img {
+        width: 969px;
+    }
+
+    /* Performance */
+    /* 區標題 */
+    #performance {
+        width: 1440px;
+        margin: 0 auto;
+        border: 1px solid red;
+    }
+
+    #Performance .Title {
+        font-size: 5rem;
+        letter-spacing: 0.6rem;
+        line-height: 6.25rem;
+        width: 960px;
+        height: 100px;
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-bottom: 124px;
+    }
+
+
+    #Performance .Subtitle-Line img {
+        width: 426px;
+        padding-top: 16px;
+        margin-left: 20px;
+    }
+
+    #Performance .Subtitle {
+        font-size: 1.25rem;
+        line-height: 2.5rem;
+    }
+
+
+    /* 表演資訊 */
+    #Performance .Performance-Content {
+        width: 1440px;
+    }
+
+    #Performance .right-intro {
+        width: 790px;
+        margin-right: 62px;
+    }
+
+    #Performance .left-img img {
+        width: 468px;
+        height: 468px;
+    }
+
+    /* 右區作品介紹文字 */
+
+    #Performance .PerformanceName {
+        font-size: 2.5rem;
+        line-height: 5rem;
+    }
+
+    #Performance .PerformanceStatus {
+        width: 140px;
+        height: 26px;
+        line-height: 1.5rem;
+        border-radius: 40px;
+        margin-bottom: 12px;
+        font-size: 0.75rem;
+    }
+
+    #Performance .Performance-info p {
+        font-size: 1.125rem;
+        margin-bottom: 12px;
+    }
+
+    #Performance .introtxt p {
+        font-size: 0.875rem;
+        line-height: 1.75rem;
+        font-weight: lighter;
+    }
+
+    #Performance .introtxt {
+        margin-top: 20px;
+        margin-bottom: 28px;
+        width: 750px;
+    }
+
+    /* 按鈕 */
+    #Performance .right-intro .OtherPerformance {
+        width: 300px;
+        height: 46px;
+        font-size: 1.125rem;
+        margin-right: 40px;
+    }
+
+    #Performance .right-intro .MoreInfo {
+        width: 300px;
+        height: 46px;
+        font-size: 1.125rem;
+        margin-right: 40px;
+    }
+
+    /* Gallery */
+
+    #Gallery {
+        width: 1440px;
+        margin: 0 auto;
+        margin-top: 120px;
+        height: 580px;
+    }
+
+    #Gallery .bg {
+        width: 1440px;
+        height: 580px;
+    }
+
+    #Gallery .content {
+        width: 1328px;
+    }
+
+    #Gallery .block2 {
+        width: 256px;
+        height: 412px;
+    }
+
+    #Gallery .block {
+        height: 412px;
+        width: 256px;
+    }
+
+    #Gallery .block2 img {
+        width: 256px;
+        height: 200px;
+    }
+
+    #Gallery .block img {
+        height: 412px;
+        width: 256px;
+        margin: 0;
+    }
+
+    /* Contact */
+
+    #Contact {
+        height: 800px;
+        width: 1440px;
+        margin: 0 auto;
+    }
+
+
+    #Contact .Title {
+        font-size: 2.5rem;
+    }
+
+
+    form {
+        width: 348px;
+    }
+
+    p {
+        font-size: 0.875rem;
+    }
+
+    #nameText,
+    #subText {
+        width: 348px;
+        height: 36px;
+        margin-top: 8px;
+        margin-bottom: 16px;
+
+    }
+
+
+    #bodyText {
+        width: 348px;
+        height: 200px;
+        margin: 8px 16px 0 0;
+    }
+
+    #email-button {
+        margin-top: 40px;
+        width: 300px;
+        height: 46px;
+        font-size: 1.125rem;
+
+    }
+
+    /* IG Post */
+    #IGPost {
+        height: 800px;
+        width: 1440px;
+        margin: 0 auto;
+    }
+
+    #IGPost .Post-List {
+        width: 1042px;
+        height: 420px;
+        top: 156px;
+        left: 199px;
+    }
+
+    #IGPost .Post {
+        width: 326px;
+    }
+
+    #IGPost .Follow {
+        height: 620px;
+    }
+
+    #IGPost .Id {
+        width: 520px;
+    }
+
+    /* top */
+    #fixedTop {
+        width: 52px;
+        height: 52px;
+        line-height: 62px;
+        right: 100px;
+        bottom: 100px;
+    }
+
+    #fixedTop img {
+        width: 24px;
+        height: 24px;
+    }
+
+    /* Footer */
+    #Footer {
+        width: 100%;
+        height: 140px;
+    }
+
+    #Footer img {
+        width: 200px;
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+
+    #Footer .info {
+        width: 300px;
+        height: 85px;
+        margin-left: 80px;
+        margin-top: 28px;
+        padding-left: 16px;
+    }
+
+    #Footer .info p {
+        font-size: 0.875rem;
+        line-height: 1.75rem;
+    }
+
+    #Footer .info .Subtitle {
+        font-size: 1.125rem;
+        line-height: 1.575;
+    }
+}
+
+/* 768 */
+@media(min-width:768px) and (max-width:1365px) {
+    .container {
+        width: 768px;
+        margin: 0 auto;
+    }
+
+    /* nav */
+    nav {
+        width: 768px;
+        height: 60px;
+    }
+
+    #nav .SocialMedia img {
+        display: none;
+    }
+
+    #nav ul {
+        margin-right: 19px;
+    }
+
+    #nav .links a {
+        width: 130px;
+    }
+
+    #nav a {
+        line-height: 60px;
+        font-size: 1rem;
+    }
+
+    #nav ul li img {
+        width: 130px;
+        height: 40px;
+    }
+
+    #nav ul li {
+        margin: 0 10px;
+    }
+
+    /* header */
+    .container #header {
+        width: 768px;
+        height: 416px;
+        position: relative;
+        overflow: hidden;
+
+    }
+
+    #carousel {
+        position: absolute;
+        width: auto;
+        height: 416px;
+        top: 0;
+        left: 0;
+    }
+
+    .container #header img {
+        width: 768px;
+        height: auto;
+        vertical-align: bottom;
+    }
+
+    .container #header .Title {
+        font-size: 2.5rem;
+    }
+
+    .container #header .Subtitle {
+        font-size: 0.875rem;
+    }
+
+    .container #header .Titles {
+        position: absolute;
+        top: 140px;
+        right: 40px;
+        z-index: 9999;
+    }
+
+
+    .container #header .SocialMedia_768 img {
+        width: 44px;
+    }
+
+    .container #header .SocialMedia_768 {
+        position: absolute;
+        display: block;
+        display: flex;
+        flex-direction: row;
+        width: 88px;
+        height: 44px;
+        bottom: 16px;
+        right: 24px;
+    }
+
+    /* bio */
+    #bio {
+        height: 400px;
+        width: 768px;
+        margin: 0 auto;
+    }
+
+    #bio img {
+        left: 8px;
+        width: 44px;
+        height: 365px;
+    }
+
+    .biotxt-Bg {
+        width: 728px;
+        height: 360px;
+        left: 20px;
+
+    }
+
+    .biotxt {
+        width: 728px;
+        height: 320px;
+        margin-left: 48px;
+    }
+
+    .biotxt p {
+        font-size: 0.875rem;
+        line-height: 1.225rem;
+        font-weight: lighter;
+        margin-bottom: 16px;
+    }
+
+
+
+    /* Work1 */
+    #Work1 {
+        height: 840px;
+        width: 768px;
+        margin: 0 auto;
+    }
+
+    #Work1 .Title {
+        font-size: 2.5rem;
+        line-height: 5rem;
+        width: 124px;
+        height: 80px;
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-bottom: 60px;
+        letter-spacing: 0.06rem;
+    }
+
+    /* 照片 */
+    /* 左區照片 */
+    #Work1 .left-img img {
+        width: 200px;
+        height: 334px;
+
+    }
+
+    /* 右區照片 */
+    #Work1 .right-img img {
+        width: 240px;
+        height: 160px;
+        margin-left: 40px;
+    }
+
+
+
+    /* 右區副標題＆底線 */
+
+    #Work1 .Subtitle-Line img {
+        width: 260px;
+        padding-top: 16px;
+        margin-left: 16px;
+    }
+
+    #Work1 .Subtitle {
+        font-size: 1.25rem;
+        line-height: 2.5rem;
+    }
+
+    /* 右區作品標題 */
+    #Work1 .WorkName {
+        font-size: 2.5rem;
+        line-height: 2.75rem;
+        height: 44px;
+        width: 480px;
+        margin: 12px 0;
+        letter-spacing: 0.06rem;
+    }
+
+    /* 右區作品介紹文字 */
+    #Work1 .introtxt {
+        margin-bottom: 28px;
+        width: 488px;
+    }
+
+    #Work1 .introtxt p {
+        font-size: 0.875rem;
+        line-height: 1.75rem;
+        font-weight: lighter;
+    }
+
+    /* 按鈕 */
+
+    #Work1 .right-intro a {
+        width: 96px;
+        height: 32px;
+        font-size: 0.75rem;
+        margin-bottom: 28px;
+        border: 1px solid #CA5500;
+    }
+
+    #Work1 .right-intro a .svg {
+        width: 16px;
+        height: 16px;
+    }
+
+
+    /* 右區排列 */
+    #Work1 .right-intro {
+        width: 520px;
+    }
+
+
+    /* Work2 */
+    #Work2 {
+        width: 768px;
+        margin: 0 auto;
+    }
+
+    #Work2 .Subtitle {
+        font-size: 1.25rem;
+        line-height: 2.5rem;
+        margin-bottom: 40px;
+        margin-top: 32px;
+    }
+
+    #Work2 .work-img {
+        width: 200px;
+        height: 300px;
+        margin-bottom: 32px;
+    }
+
+    #Work2 .work-img img {
+        width: 200px;
+        height: 300px;
+    }
+
+
+    #Work2 .Box .work-img a {
+        width: 200px;
+        height: 300px;
+        font-size: 1rem;
+
+    }
+
+    #Work2 .work-img a:hover {
+        line-height: 300px;
+        font-size: 1rem;
+    }
+
+
+    /* 按鈕 */
+    #Work2 .button a {
+        width: 200px;
+        height: 32px;
+        font-size: 0.75rem;
+        border: 1px solid #CA5500;
+    }
+
+    #Work2 .button a .svg {
+        width: 16px;
+        height: 16px;
+    }
+
+
+    #Work2 .Work-List {
+        width: 640px;
+        height: 372px;
+    }
+
+    /* Curiosity */
+
+    #Curiosity {
+        height: 142px;
+        width: 768px;
+        margin: 0 auto;
+        margin-top: 32px;
+    }
+
+    #Curiosity img {
+        width: 617px;
+    }
+
+    /* Performance */
+    /* 區標題 */
+    #performance {
+        width: 768px;
+        margin: 0 auto;
+
+    }
+
+    #Performance .Title {
+        font-size: 2.5rem;
+        line-height: 5rem;
+        width: 400px;
+        height: 80px;
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-bottom: 60px;
+        letter-spacing: 0.06rem;
+    }
+
+
+    #Performance .Subtitle-Line img {
+        display: none;
+    }
+
+    #Performance .Subtitle {
+        font-size: 1.25rem;
+        line-height: 2.5rem;
+        margin-bottom: 4px;
+    }
+
+
+    /* 表演資訊 */
+    #Performance .Performance-Content {
+        width: 768px;
+    }
+
+    #Performance .right-intro {
+        width: 500px;
+        margin-left: 32px;
+    }
+
+    #Performance .left-img img {
+        width: 260px;
+        height: 260px;
+    }
+
+    /* 右區作品介紹文字 */
+
+    #Performance .PerformanceName {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    #Performance .PerformanceStatus {
+        width: 140px;
+        height: 26px;
+        line-height: 1.65rem;
+        border-radius: 40px;
+        margin: 20px 0;
+        font-size: 0.75rem;
+    }
+
+    #Performance .Performance-info p {
+        font-size: 0.75rem;
+        margin-bottom: 8px;
+
+    }
+
+    #Performance .introtxt {
+        display: none;
+    }
+
+    #Performance .introtxt2 {
+        display: block;
+        width: 720px;
+        margin: 28px 40px;
+    }
+
+    #Performance .introtxt2 p {
+        font-size: 0.875rem;
+        line-height: 1.75rem;
+        font-weight: lighter;
+        color: #523B23;
+    }
+
+    /* 按鈕 */
+    #Performance .right-intro .MoreInfo {
+        margin-right: 16px;
+        width: 200px;
+        height: 32px;
+        font-size: 0.75rem;
+    }
+
+    #Performance .right-intro .OtherPerformance {
+        width: 200px;
+        height: 32px;
+        font-size: 0.69rem;
+        border: 1px solid #CA5500;
+    }
+
+    #Performance .button {
+        margin-top: 16px;
+    }
+
+    /* Gallery */
+
+    #Gallery {
+        height: 320px;
+        width: 768px;
+        margin: 0 auto;
+        margin-top: 48px;
+    }
+
+    #Gallery .bg {
+        width: 768px;
+        height: 320px;
+    }
+
+    #Gallery .content {
+        width: 752px;
+    }
+
+    #Gallery .block2 {
+        width: 144px;
+        height: 232px;
+    }
+
+    #Gallery .block {
+        height: 232px;
+        width: 144px;
+    }
+
+    #Gallery .block2 img {
+        width: 144px;
+        height: 112px;
+        box-shadow: 2px 2px 1px rgba(82, 59, 35, 0.3);
+
+    }
+
+    #Gallery .block img {
+        height: 232px;
+        width: 144px;
+        margin: 0;
+        box-shadow: 2px 2px 1px rgba(82, 59, 35, 0.3);
+
+    }
+
+    /* Contact */
+
+    #Contact {
+        height: 600px;
+        width: 768px;
+        margin: 0 auto;
+    }
+
+
+    #Contact .Title {
+        font-size: 1.5rem;
+    }
+
+
+    form {
+        width: 348px;
+    }
+
+    p {
+        font-size: 0.875rem;
+    }
+
+    #nameText,
+    #subText {
+        width: 348px;
+        height: 36px;
+        margin: 8px 0;
+    }
+
+
+    #bodyText {
+        width: 348px;
+        height: 200px;
+        margin: 8px 0;
+    }
+
+    #email-button {
+        margin-top: 16px;
+        width: 200px;
+        height: 32px;
+        font-size: 0.75rem;
+        letter-spacing: 0.04rem;
+    }
+
+    /* IG Post */
+    #IGPost {
+        height: 800px;
+        width: 768px;
+        margin: 0 auto;
+    }
+
+    #IGPost .Post-List {
+        width: 680px;
+        height: 500px;
+        top: 159px;
+        left: 44px;
+    }
+
+    #IGPost .Post {
+        width: 326px;
+    }
+
+    #IGPost .Post:nth-child(3) {
+        display: none;
+    }
+
+    #IGPost .Follow {
+        height: 268px;
+        transform: rotate(-90deg);
+        left: 384px;
+        top: -60px;
+    }
+
+    #IGPost .Id {
+        width: 244px;
+        left: 262px;
+        bottom: 52px;
+    }
+
+
+
+    /* top */
+    #fixedTop {
+        width: 52px;
+        height: 52px;
+        line-height: 62px;
+        right: 40px;
+        bottom: 80px;
+    }
+
+    #fixedTop img {
+        width: 24px;
+        height: 24px;
+    }
+
+    /* Footer */
+    #Footer {
+        width: 100%;
+        height: 120px;
+    }
+
+    #Footer img {
+        width: 128px;
+        margin-left: 28px;
+        margin-top: 16px;
+
+    }
+
+    #Footer .info {
+        width: 360px;
+        height: 88px;
+        margin-left: 20px;
+        margin-top: 16px;
+        padding-left: 16px;
+    }
+
+    #Footer .info p {
+        font-size: 0.875rem;
+        letter-spacing: 0.02rem;
+        line-height: 1.75rem;
+    }
+
+    #Footer .info .Subtitle {
+        font-size: 1.125rem;
+        line-height: 1.575;
+    }
+}
+
+/* 375 */
+@media(max-width:767px) {
+    .container {
+        display: none;
+    }
+
+    .container2 {
+        width: 375px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    /* nav */
+    #nav_small {
+        display: block;
+        width: 375px;
+        height: 40px;
+        z-index: 99999;
+        position: fixed;
+        top: 0;
+        padding: 0;
+        overflow: visible;
+        padding-top: 8px;
+        padding-right: 16px;
+    }
+
+    #nav_small .logo img {
+        height: 28px;
+        float: left;
+    }
+
+    #nav_small .SocialMedia img {
+        width: 32px;
+        height: 32px;
+        float: right;
+        margin-top: 0;
+    }
+
+    #nav_small .SocialMedia {
+        margin-right: 0;
+    }
+
+    #nav_small #close {
+        display: none;
+        transition: all 1s;
+    }
+
+    #nav_small .sidebar_switch {
+        width: 32px;
+        height: 32px;
+        float: right;
+        position: relative;
+    }
+
+
+    #nav_small button img {
+        width: 32px;
+        height: 32px;
+        float: right;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+
+    #nav_small #sidebar {
+        width: 140px;
+        height: 360px;
+        background-color: rgba(252, 243, 234, 0.9);
+        padding: 40px 0;
+        position: absolute;
+        right: 0;
+        top: 48px;
+        display: none;
+        box-shadow: 0px 2px 2px rgba(82, 59, 35, 0.3);
+    }
+
+    #nav_small #sidebar a {
+        display: block;
+        margin-bottom: 24px;
+        margin-left: 16px;
+        text-decoration: none;
+        color: #D98A3B;
+        font-size: 0.75rem;
+        line-height: 1.5rem;
+    }
+
+    
+    /* header */
+    #header {
+        width: 375px;
+        height: 812px;
+        position: relative;
+    }
+
+    #header img {
+        height: 812px;
+    }
+
+
+    #header .Title {
+        font-weight: bold;
+        font-size: 2.5rem;
+        color: #F4C494;
+        text-align: end;
+    }
+
+    #header .Subtitle {
+        display: none;
+    }
+
+    #header .Titles {
+        position: absolute;
+        top: 570px;
+        right: 65px;
+    }
+
+    /* bio */
+    #bio {
+        height: 812px;
+        width: 375px;
+        margin: 0 auto;
+        background-position: center;
+        position: relative;
+    }
+
+
+    #bio img {
+        display: none;
+    }
+
+    .biotxt-Bg {
+        width: 375px;
+        height: 812px;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bio-Title,
+    .bio-Subtitle {
+        display: block;
+
+    }
+
+    .bio-Title {
+        font-size: 2.5rem;
+        color: #F4C494;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .bio-Subtitle {
+        font-size: 0.875rem;
+        color: #D98A3B;
+        font-weight: 600;
+        margin-bottom: 32px;
+        letter-spacing: 0.04rem;
+    }
+
+
+    .biotxt {
+        width: 320px;
+        height: 580px;
+        margin-left: 0;
+    }
+
+    .biotxt p {
+        font-size: 0.875rem;
+        line-height: 1.3rem;
+        font-weight: thin;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+
+
+
+    /* Work1 */
+    #Work1 {
+        height: 574px;
+        width: 375px;
+        margin: 0 auto;
+    }
+
+    #Work1 .Work-Content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    #Work1 .Title {
+        font-size: 2rem;
+        line-height: 4rem;
+        width: 120px;
+        height: 64px;
+        margin: 20px auto;
+        letter-spacing: 0.06rem;
+    }
+
+    #Work1 .Subtitle {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        align-self: flex-start;
+    }
+
+    /* 照片 */
+
+    #Work1 .pic {
+        width: 335px;
+        height: 180px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        box-shadow: 1px 1px 1px rgba(82, 59, 35, 0.3);
+
+    }
+
+    #Work1 .Work-img {
+        width: 335px;
+        height: auto;
+    }
+
+    /* 作品標題 */
+    #Work1 .WorkName {
+        font-size: 1.5rem;
+        line-height: 2.1rem;
+        height: 34px;
+        width: 335px;
+        margin: 20px 0 0;
+        letter-spacing: 0.06rem;
+
+    }
+
+    /* 右區作品介紹文字 */
+    #Work1 .introtxt {
+        margin-top: 12px;
+        margin-bottom: 20px;
+        width: 335px;
+        height: 100px;
+        font-size: 0.75rem;
+        line-height: 1.5rem;
+        font-weight: lighter;
+        display: -webkit-inline-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4;
+        overflow: hidden;
+        color: #523B23;
+    }
+
+    /* 按鈕 */
+
+    .Button-More {
+        display: block;
+        width: 96px;
+        height: 32px;
+        line-height: 2rem;
+        font-size: 0.75rem;
+        background-color: #CA5500;
+        border: 1px solid #CA5500;
+        color: #fff;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 2px 4px rgba(82, 59, 35, 0.6);
+
+    }
+
+    .Button-More img {
+        width: 16px;
+        height: 16px;
+    }
+
+    /* Curiosity */
+
+    #Curiosity {
+        height: 142px;
+        width: 375px;
+        margin: 0 auto;
+    }
+
+    #Curiosity img {
+        width: 338px;
+    }
+
+
+    /* Work2 */
+    #Work2 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 723px;
+        width: 375px;
+        margin: 0 auto;
+    }
+
+    #Work2 .Subtitle {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        margin-bottom: 16px;
+        margin-top: 32px;
+        margin-left: 20px;
+        align-self: flex-start;
+    }
+
+    #Work2 .left-img {
+        width: 120px;
+        height: 185px;
+        margin-bottom: 0;
+    }
+
+    #Work2 .left-img img {
+        width: 120px;
+        height: 185px;
+        box-shadow: 1px 1px 1px rgba(82, 59, 35, 0.3);
+
+    }
+
+    #Work2 .right-intro .WorkName {
+        font-size: 1.125rem;
+        line-height: 1.575rem;
+        display: -webkit-inline-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        overflow: hidden;
+        color: #D98A3B;
+        margin-top: 4px;
+    }
+
+    #Work2 .introtxt {
+        margin-top: 4px;
+        margin-bottom: 16px;
+        width: 192px;
+        height: 100px;
+        font-size: 0.75rem;
+        line-height: 1.5rem;
+        font-weight: lighter;
+        display: -webkit-inline-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4;
+        overflow: hidden;
+        color: #523B23;
+    }
+
+    #Work2 .Work-List .Box .right-intro {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    #Work2 .Work-List .Box {
+        display: flex;
+        flex-direction: row;
+        height: 201px;
+        border-bottom: 1px solid #CA5500;
+        margin-bottom: 16px;
+    }
+
+    #Work2 .Work-List {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 335px;
+        height: 635px;
+    }
+
+
+    /* Performance */
+    /* 區標題 */
+    #Performance {
+        height: 798px;
+        width: 375px;
+        margin: 0 auto;
+    }
+
+    #Performance .Performance-Content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 335px;
+        margin: 0 auto;
+    }
+
+    #Performance .Title {
+        font-size: 2rem;
+        line-height: 4rem;
+        width: 320px;
+        height: 64px;
+        margin: 20px auto;
+        letter-spacing: 0.06rem;
+    }
+
+    #Performance .Subtitle {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        margin-bottom: 16px;
+        align-self: flex-start;
+    }
+
+    #Performance .pic {
+        width: 335px;
+        height: 180px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        box-shadow: 1px 1px 1px rgba(82, 59, 35, 0.3);
+
+    }
+
+    #Performance .Performance-Content img {
+        width: 335px;
+        height: auto;
+    }
+
+
+    #Performance .PerformanceName {
+        font-size: 1.5rem;
+        line-height: 2.1rem;
+        margin-top: 20px;
+        align-self: start;
+    }
+
+    #Performance .PerformanceStatus {
+        width: 140px;
+        height: 26px;
+        line-height: 1.65rem;
+        border-radius: 40px;
+        margin: 16px 0;
+        align-self: start;
+        font-size: 0.75rem;
+    }
+
+    #Performance .Performance-info p {
+        font-size: 0.75rem;
+        line-height: 1.5rem;
+        margin-bottom: 0;
+        letter-spacing: 0rem;
+        font-weight: 600;
+    }
+
+    #Performance .introtxt {
+        margin-top: 16px;
+        width: 335px;
+        margin-bottom: 0;
+    }
+
+    #Performance .introtxt p {
+        font-size: 0.75rem;
+        line-height: 1.5rem;
+        font-weight: lighter;
+        letter-spacing: 0.01rem;
+        color: #523B23;
+    }
+
+
+    /* 按鈕 */
+    #Performance .MoreInfo {
+        margin-right: 16px;
+        width: 200px;
+        height: 32px;
+        font-size: 0.75rem;
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: #fff;
+        background-color: #A94700;
+        box-shadow: 0px 2px 4px rgba(82, 59, 35, 0.6);
+    }
+
+    #Performance .OtherPerformance {
+        width: 200px;
+        height: 32px;
+        font-size: 0.75rem;
+        border: 1px solid #CA5500;
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: #CA5500;
+        box-shadow: 0px 2px 4px rgba(82, 59, 35, 0.6);
+        margin-top: 12px;
+    }
+
+    #Performance .button {
+        margin-top: 20px;
+        flex-direction: column;
+        width: 200px;
+    }
+
+    /* Gallery */
+
+    #Gallery {
+        height: 320px;
+        width: 375px;
+        margin: 0 auto;
+    }
+
+    #Gallery .bg {
+        width: 375px;
+        height: 320px;
+    }
+
+    #Gallery .content {
+        width: 296px;
+    }
+
+    #Gallery .block2 {
+        width: 144px;
+        height: 232px;
+    }
+
+    #Gallery .block {
+        height: 232px;
+        width: 144px;
+    }
+
+    #Gallery .block2 img {
+        width: 144px;
+        height: 112px;
+        box-shadow: 2px 2px 1px rgba(82, 59, 35, 0.3);
+
+    }
+
+    #Gallery .block img {
+        height: 232px;
+        width: 144px;
+        margin: 0;
+        box-shadow: 2px 2px 1px rgba(82, 59, 35, 0.3);
+
+    }
+
+    /* Contact */
+
+    #Contact {
+        height: 320px;
+        width: 375px;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #Contact .Title {
+        font-size: 1.5rem;
+    }
+
+    #email-button {
+        margin-top: 16px;
+        width: 200px;
+        height: 32px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #email-button p {
+        font-size: 0.63rem;
+        line-height: 2rem;
+        height: 32px;
+        margin-left: 36px;
+        letter-spacing: 0.02rem;
+    }
+
+    #email-button img {
+        width: 12px;
+        height: 12px;
+        margin-left: 12px;
+    }
+
+    /* top */
+    #fixedTop {
+        width: 40px;
+        height: 40px;
+        line-height: 42px;
+        right: 20px;
+        bottom: 40px;
+    }
+
+    #fixedTop img {
+        width: 16px;
+        height: 16px;
+    }
+
+    /* Footer */
+    #Footer {
+        width: 100%;
+        height: 328px;
+        flex-direction: column;
+    }
+
+    #Footer img {
+        width: 128px;
+        margin-left: 0px;
+        margin-top: 24px;
+
+    }
+
+    #Footer .info {
+        width: 360px;
+        height: 88px;
+        margin-left: 20px;
+        margin-top: 32px;
+        padding-left: 16px;
+    }
+
+    #Footer .info p {
+        font-size: 0.875rem;
+        letter-spacing: 0.02rem;
+        line-height: 1.75rem;
+    }
+
+
+    #Footer .info .Subtitle {
+        font-size: 1.125rem;
+        line-height: 1.575;
+    }
+}
