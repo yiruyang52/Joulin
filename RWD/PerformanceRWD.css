@@ -507,13 +507,15 @@
 
     .intro {
         width: 348px;
-        height: 400px;
+        height: auto;
         align-items: flex-start;
+        margin-bottom: 36px;
     }
 
     .block img {
         width: 375px;
         height: 268px;
+        margin-bottom: 20px;
     }
 
     /* 介紹文字 */
@@ -537,24 +539,24 @@
 
     .Performance-info {
         margin-top: 8px;
-        width: 375px;
+        width: 347px;
     }
 
     .Performance-info p {
-        font-size: 0.75rem;
-        margin-bottom: 4px;
+        font-size: 0.875rem;
+        margin-bottom: 8px;
         line-height: 1.5rem;
-        letter-spacing: 0.02rem;
+        letter-spacing: 0.04rem;
         text-align: start;
+        font-weight: bold;
     }
 
     .introtxt p {
-        line-height: 1.5rem;
-        font-size: 0.75rem;
+        line-height: 1.75rem;
+        font-size: 0.875rem;
         font-weight: 400;
-        letter-spacing: 0.02rem;
+        letter-spacing: 0.04rem;
         text-align: start;
-
     }
 
     .introtxt {
@@ -576,7 +578,7 @@
         color: #fff;
         box-shadow: 0px 2px 4px rgba(82, 59, 35, 0.6);
         margin-bottom: 16px;
-        margin-top: 12px;
+        margin-top: 20px;
     }
 
     .button .svg,.button-option .svg{
@@ -588,12 +590,15 @@
     .button-option{
        align-self: center;
        margin-top: 12px;
+       margin-top: 20px;
+
     }
 
     .button-option img{
         display: block;
         width: 16px;
         height: 16px;
+        margin: auto 0;
         margin-left: 8px;
     }
 
