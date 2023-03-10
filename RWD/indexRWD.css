@@ -53,13 +53,11 @@
     #carousel {
         width: 1440px;
         height: 1080px;
-        border: 1px solid rgb(72, 0, 255);
     }
 
     .container #header img {
         width: 1440px;
         height: 100%;
-        border: 1px solid red;
     }
 
     .container #header .Title {
@@ -569,7 +567,6 @@
     .container #header img {
         width: 768px;
         height: 100%;
-        vertical-align: bottom;
     }
 
     .container #header .Title {
