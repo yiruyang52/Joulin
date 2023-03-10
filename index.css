@@ -110,7 +110,7 @@ nav {
 
 .container #header img{
     width: 1920px;
-    height: auto;
+    height: 100%;
     vertical-align: bottom;
 }
 
