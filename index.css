@@ -506,11 +506,18 @@ nav {
     margin-right: 60px;
 }
 
-#Performance .left-img img {
+#Performance .left-img{
     width: 656px;
     height: 628px;
+    background-image: url("./WebsiteMaterial/Performance/BabyUniverseRMT/Pic1.jpg");
+    background-size: cover;
     box-shadow: 2px 2px 2px rgba(82, 59, 35, 0.3);
+    overflow: hidden;
 }
+
+/* #Performance .left-img img {
+    width: 840px;
+} */
 
 /* 右區作品介紹文字 */
 

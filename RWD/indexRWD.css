@@ -3,6 +3,7 @@
     .container {
         width: 1440px;
         margin: 0 auto;
+        overflow: hidden;
     }
 
     /* nav */
@@ -46,12 +47,10 @@
     .container #header {
         width: 1440px;
         height: 800px;
-        position: relative;
         overflow: hidden;
     }
 
     #carousel {
-        position: absolute;
         width: auto;
         height: 1080px;
         top: 0;
@@ -61,7 +60,6 @@
     .container #header img {
         width: 1440px;
         height: auto;
-        vertical-align: bottom;
     }
 
     .container #header .Title {
@@ -73,11 +71,8 @@
     }
 
     .container #header .Titles {
-        position: absolute;
-        z-index: 9999;
         top: 284px;
         right: 56px;
-
     }
 
     /* bio */
@@ -165,7 +160,6 @@
         line-height: 6.2.5rem;
         height: 100px;
         margin-bottom: 28px;
-
     }
 
     /* 右區作品介紹文字 */
@@ -206,6 +200,7 @@
         line-height: 2.5rem;
         margin-bottom: 40px;
         margin-top: 44px;
+
     }
 
     #Work2 .work-img {
@@ -254,7 +249,7 @@
         height: 256px;
         width: 1440px;
         margin: 0 auto;
-        margin-top: 52px;
+        margin-top: 52px;        
     }
 
     #Curiosity img {
@@ -303,9 +298,11 @@
         margin-right: 62px;
     }
 
-    #Performance .left-img img {
-        width: 468px;
+    #Performance .left-img{
+        width: 520px;
         height: 468px;
+        box-shadow: 2px 2px 2px rgba(82, 59, 35, 0.3);
+        overflow: hidden;
     }
 
     /* 右區作品介紹文字 */
@@ -517,6 +514,7 @@
     .container {
         width: 768px;
         margin: 0 auto;
+        overflow: hidden;
     }
 
     /* nav */
@@ -843,10 +841,14 @@
         margin-left: 32px;
     }
 
-    #Performance .left-img img {
+    #Performance .left-img{
         width: 260px;
         height: 260px;
+        background-position: 30%;
+        box-shadow: 2px 2px 2px rgba(82, 59, 35, 0.3);
+        overflow: hidden;
     }
+
 
     /* 右區作品介紹文字 */
 

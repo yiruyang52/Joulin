@@ -46,28 +46,6 @@ function init() {
 }
 
 
-// contact
-var initSubject = '', initBody = '';
-
-//按下傳送按鈕後執行
-function submitHandler() {
-    var to = "juolinlee@gmail.com";
-    var name = nameText.value;
-    var subject = subText.value;
-    //把user填的資料都塞到 mail body 中
-    var body = "" + bodyText.value + '%0A%0A%0A';
-    body += "From：" + nameText.value + '%0A';
-    //傳送的主要程式碼
-    mailTo.href = "mailto:" + to + "?subject=" + subject + "&body=" + body;
-    mailTo.click();
-}
-//在body onload
-function init() {
-    subText.value = initSubject;
-    toText.value = initTo;
-    bodyText.value = initBody;
-}
-
 
 // contact-small
 
