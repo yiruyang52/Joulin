@@ -52,12 +52,16 @@
 
     #carousel {
         width: 1440px;
-        height: 1080px;
+        height: 800px;
+    }
+    #carousel ul,#carousel ul li{
+        width: 1440px;
+        height: 800px;
     }
 
     .container #header img {
         width: 1440px;
-        height: 100%;
+        height: auto;
     }
 
     .container #header .Title {
@@ -489,7 +493,7 @@
     }
 
     #Footer .info {
-        width: 300px;
+        width: 320px;
         height: 85px;
         margin-left: 80px;
         margin-top: 28px;
@@ -564,9 +568,14 @@
         left: 0;
     }
 
+    #carousel ul,#carousel ul li{
+        width: 768px;
+        height: 416px;
+    }
+
     .container #header img {
         width: 768px;
-        height: 100%;
+        height: auto;
     }
 
     .container #header .Title {
@@ -1373,6 +1382,10 @@
         height: 723px;
         width: 375px;
         margin: 0 auto;
+    }
+
+    #Work2 .Box:nth-child(2){
+        order: -1;
     }
 
     #Work2 .Subtitle {

@@ -212,7 +212,8 @@ nav {
 
 .Work-info p {
     font-size: 1.2rem;
-    line-height: 2.5rem;
+    line-height: 2.4rem;
+    margin-bottom: 12px;
     color: #523B23;
 }
 
@@ -251,7 +252,7 @@ nav {
 
 #Footer .info {
     color: #fff;
-    width: 400px;
+    width: 440px;
     height: 119px;
     font-size: 1.25rem;
     line-height: 40px;

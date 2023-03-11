@@ -108,9 +108,14 @@ nav {
     left: 0;
 }
 
+#carousel ul,#carousel ul li{
+    width: 1920px;
+    height: 1080px;
+}
+
 .container #header img{
     width: 1920px;
-    height: 100%;
+    height: auto;
 }
 
 
@@ -810,7 +815,7 @@ p {
 
 #Footer .info {
     color: #fff;
-    width: 400px;
+    width: 440px;
     height: 119px;
     margin-left: 120px;
     margin-top: 20px;

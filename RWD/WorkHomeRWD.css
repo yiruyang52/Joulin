@@ -156,6 +156,7 @@
     .Work-info p {
         font-size: 0.875rem;
         line-height: 1.75rem;
+        margin-bottom: 12px;
     }
 
     /* top */
@@ -186,7 +187,7 @@
     }
 
     #Footer .info {
-        width: 300px;
+        width: 320px;
         height: 85px;
         margin-left: 80px;
         margin-top: 28px;
@@ -366,7 +367,8 @@
 
     .Work-info p {
         font-size: 0.875rem;
-        line-height: 2rem;
+        line-height: 1.75rem;
+        margin-bottom: 12px;
         color: #523B23;
         font-weight: lighter;
         letter-spacing: 0rem;
@@ -689,7 +691,8 @@
 
     .Work-info p {
         font-size: 0.75rem;
-        line-height: 1.75rem;
+        line-height: 1.05rem;
+        margin-bottom: 12px;
         font-weight: lighter;
         letter-spacing: 0rem;
         color: #523B23;
