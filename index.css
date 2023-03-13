@@ -381,7 +381,9 @@ nav {
     width: 420px;
     height: 630px;
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.4);
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    background-image: url("./WebsiteMaterial/Work/JuolinandtheToaster/Pic1.jpg");
+    background-size: cover;
     color: white;
     z-index: 999;
     text-align: center;
@@ -390,6 +392,15 @@ nav {
     font-size: 1.5rem;
     opacity: 1;
     transition: all 0.3s;
+}
+
+#Work2 .Box:nth-child(1) .work-img a {
+    background-image: url("./WebsiteMaterial/Work/Homeexploration/Homephoto/2edited.png");
+}
+
+#Work2 .Box:nth-child(3) .work-img a {
+    background-image: url("./WebsiteMaterial/Work/Nowherehere/P1.png");
+    background-position: 50%;
 }
 
 
