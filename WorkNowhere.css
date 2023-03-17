@@ -138,6 +138,10 @@ nav {
 
 }
 
+#header .pic2{
+    display: none;
+}
+
 #header img {
     width: 467px;
     height: auto;

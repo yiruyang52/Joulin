@@ -430,7 +430,7 @@
     }
 
     .container {
-        width: 375px;
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -441,15 +441,16 @@
 
     #nav_small {
         display: block;
-        width: 375px;
+        width: 100%;
         height: 40px;
         z-index: 99999;
         position: fixed;
         top: 0;
         padding: 0;
-        overflow: visible;
         padding-top: 8px;
         padding-right: 16px;
+        margin: 0 auto;
+        overflow: visible;
     }
 
     #nav_small .logo img {
@@ -523,7 +524,7 @@
     #header {
         width: 375px;
         margin: 0 auto;
-        margin-top: 80px;
+        margin-top: 60px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -602,7 +603,7 @@
         display: flex;
         flex-direction: column;
         width: 375px;
-
+        margin: 0 auto;
     }
 
     .content-all {
@@ -613,6 +614,7 @@
         align-items: flex-end;
         justify-content: space-between;
         margin-bottom: 20px;
+        
     }
 
     .Work-info {
@@ -715,6 +717,7 @@
     /* Footer */
     #Footer {
         width: 100%;
+        margin: 0 auto;
         height: 328px;
         flex-direction: column;
     }

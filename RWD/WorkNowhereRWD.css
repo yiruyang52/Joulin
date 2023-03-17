@@ -114,7 +114,7 @@
     .content .deco-txt {
         width: 234px;
         height: 80px;
-       margin: auto 0;
+        margin: auto 0;
         margin-left: 140px;
     }
 
@@ -293,7 +293,7 @@
     .content .deco-txt {
         width: 156px;
         height: 60px;
-       margin: auto 0;
+        margin: auto 0;
         margin-left: 120px;
     }
 
@@ -367,7 +367,7 @@
     }
 
     .container {
-        width: 375px;
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -378,8 +378,9 @@
 
     #nav_small {
         display: block;
-        width: 375px;
+        width: 100%;
         height: 40px;
+        margin: 0 auto;
         z-index: 99999;
         position: fixed;
         top: 0;
@@ -460,24 +461,23 @@
     #header {
         width: 375px;
         margin: 0 auto;
-        margin-top: 80px;
+        margin-top: 60px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-
-     #header .pic{
-        width: 375px;
-        height: 375px;
-        overflow: hidden;
-        display: flex;
-        align-items: center;
+    #header .pic1 {
+        display: none;
     }
 
+    #header .pic2 {
+        display: block;
+    }
+   
     #header img {
         width: 375px;
-        height:auto;
+        height: 375px;
     }
 
     #header .right-intro {
@@ -549,9 +549,9 @@
         margin: 0 auto;
     }
 
-   
+
     .content .left-content {
-      display: none;
+        display: none;
     }
 
     /* 其他資訊 */
@@ -570,7 +570,7 @@
         color: #523B23;
     }
 
-    
+
 
     /* top */
     #fixedTop {
@@ -590,6 +590,7 @@
     #Footer {
         width: 100%;
         height: 328px;
+        margin: 0 auto;
         flex-direction: column;
     }
 
