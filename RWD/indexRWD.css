@@ -1680,8 +1680,9 @@
 
     /* Footer */
     #Footer {
-        width: 100vw;
+        width: 375px;
         height: 328px;
+        margin: 0 auto;
         flex-direction: column;
     }
 
