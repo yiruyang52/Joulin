@@ -539,14 +539,14 @@
 
     .Performance-info {
         margin-top: 8px;
-        width: 347px;
+        width: 340px;
     }
 
     .Performance-info p {
-        font-size: 0.875rem;
+        font-size: 0.75rem;
         margin-bottom: 8px;
         line-height: 1.5rem;
-        letter-spacing: 0.04rem;
+        letter-spacing: 0.02rem;
         text-align: start;
         font-weight: bold;
     }
@@ -555,13 +555,13 @@
         line-height: 1.75rem;
         font-size: 0.875rem;
         font-weight: 400;
-        letter-spacing: 0.04rem;
+        letter-spacing: 0.02rem;
         text-align: start;
     }
 
     .introtxt {
-        margin: 8px auto;
-        width: 347px;
+        margin: 8px 0;
+        width: 340px;
     }
 
     /* 按鈕-無選項 */

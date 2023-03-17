@@ -557,7 +557,7 @@
     }
 
     #header .introtxt {
-        width: 340px;
+        width: 326px;
     }
 
     #header .introtxt p {
@@ -620,6 +620,9 @@
     .Work-info {
         order: 0;
     }
+    .Work-info .infotxt{
+    width: 320px;}
+
 
     /* video */
     .video {
