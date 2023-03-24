@@ -1179,6 +1179,7 @@
     #header {
         width: 375px;
         height: 812px;
+        margin: 0 auto;
         position: relative;
     }
 
