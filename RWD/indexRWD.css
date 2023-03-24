@@ -1096,6 +1096,9 @@
         width: 100vw;
         margin: 0 auto;
         display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     /* nav */
