@@ -1377,7 +1377,7 @@
     #Curiosity {
         height: 142px;
         width: 100%;
-        
+        margin: 0;
     }
 
     #Curiosity img {
@@ -1459,6 +1459,7 @@
         height: 201px;
         border-bottom: 1px solid #CA5500;
         margin-bottom: 16px;
+        
     }
 
     #Work2 .Work-List {
