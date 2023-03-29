@@ -1180,7 +1180,7 @@
     
     /* header */
     #header {
-        width: 100vw;
+        width: 100%;
         height: 812px;
         margin: 0 auto;
         overflow: hidden;
@@ -1215,7 +1215,7 @@
     /* bio */
     #bio {
         height: 812px;
-        width: 100vw;
+        width: 100%;
         margin: 0 auto;
         background-position: center;
         position: relative;
@@ -1275,7 +1275,7 @@
     /* Work1 */
     #Work1 {
         height: 574px;
-        width: 375px;
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -1283,6 +1283,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
 
 
@@ -1375,8 +1376,8 @@
 
     #Curiosity {
         height: 142px;
-        width: 375px;
-        margin: 0 auto;
+        width: 100%;
+        
     }
 
     #Curiosity img {
@@ -1390,7 +1391,7 @@
         flex-direction: column;
         align-items: flex-start;
         height: 723px;
-        width: 375px;
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -1473,7 +1474,7 @@
     /* 區標題 */
     #Performance {
         height: 798px;
-        width: 375px;
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -1678,7 +1679,7 @@
         width: 40px;
         height: 40px;
         line-height: 42px;
-        right: 20px;
+        right: 6%;
         bottom: 40px;
     }
 
