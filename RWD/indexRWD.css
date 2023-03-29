@@ -1180,14 +1180,18 @@
     
     /* header */
     #header {
-        width: 375px;
+        width: 100vw;
         height: 812px;
         margin: 0 auto;
-        position: relative;
+        overflow: hidden;
+        display: flex;
+    flex-direction: column;
     }
 
     #header img {
         height: 812px;
+        /* position: relative; */
+        align-self: center;
     }
 
 
@@ -1205,13 +1209,13 @@
     #header .Titles {
         position: absolute;
         top: 570px;
-        right: 65px;
+        right: 20%;
     }
 
     /* bio */
     #bio {
         height: 812px;
-        width: 375px;
+        width: 100vw;
         margin: 0 auto;
         background-position: center;
         position: relative;
@@ -1223,7 +1227,7 @@
     }
 
     .biotxt-Bg {
-        width: 375px;
+        width: 100vw;
         height: 812px;
         left: 0;
         display: flex;
@@ -1594,12 +1598,12 @@
 
     #Gallery {
         height: 320px;
-        width: 375px;
+        width: 100vw;
         margin: 0 auto;
     }
 
     #Gallery .bg {
-        width: 375px;
+        width: 100vw;
         height: 320px;
     }
 
@@ -1636,7 +1640,7 @@
 
     #Contact {
         height: 320px;
-        width: 375px;
+        width: 100vw;
         margin: 0 auto;
         flex-direction: column;
         justify-content: center;
@@ -1685,7 +1689,7 @@
 
     /* Footer */
     #Footer {
-        width: 375px;
+        width: 100vw;
         height: 328px;
         margin: 0 auto;
         flex-direction: column;
