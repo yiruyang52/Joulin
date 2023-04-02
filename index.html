@@ -15,12 +15,13 @@
     <link rel="stylesheet" href=" https://unpkg.com/ress/dist/ress.min.css ">
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./RWD/indexRWD.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
     <!-- js -->
     <script src="./js/jquery-3.6.1.min.js"></script>
-    <script src="./js/jquery-1.11.3.min.js"></script>
-    <script src="./js/jquery.jcarousellite.min.js"></script>
     <script src="./js/index.js"></script>
-
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
 </head>
 
 <body>
@@ -69,35 +70,54 @@
                 <a href="https://www.instagram.com/juolinlee/" target="_blank"><img src="./Logo&Icons/Instagram.svg"
                         alt=""></a>
             </div>
-            <div id="carousel">
-                <ul>
-                    <li><img src="./WebsiteMaterial/Work/JuolinandtheToaster/Pic7.jpg" alt=" "></li>
-                    <li><img src="./WebsiteMaterial/Work/JuolinandtheToaster/Pic2.jpg" alt=" "></li>
-                    <li><img src="./WebsiteMaterial/Work/JuolinandtheToaster/Pic6.jpg" alt=" "></li>
-                </ul>
-            </div>
-            
+
+            <section class="slider autoplay">
+                <div>
+                    <img src="./WebsiteMaterial/Work/JuolinandtheToaster/Pic7.jpg" alt=" ">
+                </div>
+                <div>
+                    <img src="./WebsiteMaterial/Work/JuolinandtheToaster/Pic2.jpg" alt=" ">
+                </div>
+                <div>
+                    <img src="./WebsiteMaterial/Work/JuolinandtheToaster/Pic6.jpg" alt=" ">
+                </div>
+            </section>
+            <script type="text/javascript">
+                $(document).on('ready', function () {
+                    $('.autoplay').slick({
+                        dots: true,
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        autoplay: true,
+                        autoplaySpeed: 2000,
+                        // infinite: true,
+                    });
+                });
+            </script>
+
         </div>
+
         <!-- Bio -->
         <div id="bio">
-            <img src="./Logo&Icons/JUOLIN LEE.svg" alt="">
-            <div class="biotxt-Bg">
-                <div class="bio-Title">About</div>
-                <div class="bio-Subtitle">Vancouver based contemporary dance artist</div>
-                <div class="biotxt">
-                    <p>Juolin Lee is a Taiwanese-Canadian emerging dance artist who is fascinated by the transformative
-                        power of dance.</p>
-                    <p> Juolin feels fortunate to live, learn and create on the unceded territories of the Musqueam,
-                        Squamish and Tsleil-Waututh Nations.</p>
-                    <p>Juolin completed her training in Modus Operandi Contemporary Dance program in June 2021.</p>
-                    <p>Juolin has a deep love and respect for the dance community she<span
-                            style="font-family:Serif;">’</span>s immersed in. </p>
-                    <p>She has the pleasure to work with Natalie TY Gan, Ziyian Kwan, Sammy Chien, Caroline
-                        MacCaull,Arash Khakpour, Emmalena Fredriksson and Zahra Shahab. </p>
-                    <p>Dance to Juolin is a portal to indescribable emotions and complex, swerving stories.</p>
-                    <p>Through openness and curiosity she wishes to continuously unpack her idea of self and her
-                        relationship with the world.
-                    </p>
+            <div class="bio-content">
+                <img src="./Logo&Icons/JUOLIN LEE.svg" alt="">
+                <div class="biotxt-Bg">
+                    <div class="biotxt">
+                        <p>Juolin Lee is a Taiwanese-Canadian emerging dance artist who is fascinated by the
+                            transformative
+                            power of dance.</p>
+                        <p> Juolin feels fortunate to live, learn and create on the unceded territories of the Musqueam,
+                            Squamish and Tsleil-Waututh Nations.</p>
+                        <p>Juolin completed her training in Modus Operandi Contemporary Dance program in June 2021.</p>
+                        <p>Juolin has a deep love and respect for the dance community she<span
+                                style="font-family:Serif;">’</span>s immersed in. </p>
+                        <p>She has the pleasure to work with Natalie TY Gan, Ziyian Kwan, Sammy Chien, Caroline
+                            MacCaull,Arash Khakpour, Emmalena Fredriksson and Zahra Shahab. </p>
+                        <p>Dance to Juolin is a portal to indescribable emotions and complex, swerving stories.</p>
+                        <p>Through openness and curiosity she wishes to continuously unpack her idea of self and her
+                            relationship with the world.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -640,61 +660,64 @@
         </div>
         <!-- Bio -->
         <div id="nav_bio">
-        <div id="bio">
-            
-            <img src="./Logo&Icons/JUOLIN LEE.svg" alt="">
-            <div class="biotxt-Bg">
-                <div class="bio-Title">About</div>
-                <div class="bio-Subtitle">Vancouver based contemporary dance artist</div>
-                <div class="biotxt">
-                    <p>Juolin Lee is a Taiwanese-Canadian emerging dance artist who is fascinated by the transformative
-                        power of dance.</p>
-                    <p> Juolin feels fortunate to live, learn and create on the unceded territories of the Musqueam,
-                        Squamish and Tsleil-Waututh Nations.</p>
-                    <p>She completed her training in Modus Operandi Contemporary Dance program in June 2021.</p>
-                    <p>Juolin has a deep love and respect for the dance community she<span
-                            style="font-family:Serif;">’</span>s immersed in. </p>
-                    <p>She has the pleasure to work with Natalie TY Gan, Ziyian Kwan, Sammy Chien, Caroline
-                        MacCaull,Arash Khakpour, Emmalena Fredriksson and Zahra Shahab. </p>
-                    <p>Dance to Juolin is a portal to indescribable emotions and complex, swerving stories.</p>
-                    <p>Through openness and curiosity she wishes to continuously unpack her idea of self and her
-                        relationship with the world.
-                    </p>
+            <div id="bio">
+
+                <img src="./Logo&Icons/JUOLIN LEE.svg" alt="">
+                <div class="biotxt-Bg">
+                    <div class="bio-Title">About</div>
+                    <div class="bio-Subtitle">Vancouver based contemporary dance artist</div>
+                    <div class="biotxt">
+                        <p>Juolin Lee is a Taiwanese-Canadian emerging dance artist who is fascinated by the
+                            transformative
+                            power of dance.</p>
+                        <p> Juolin feels fortunate to live, learn and create on the unceded territories of the Musqueam,
+                            Squamish and Tsleil-Waututh Nations.</p>
+                        <p>She completed her training in Modus Operandi Contemporary Dance program in June 2021.</p>
+                        <p>Juolin has a deep love and respect for the dance community she<span
+                                style="font-family:Serif;">’</span>s immersed in. </p>
+                        <p>She has the pleasure to work with Natalie TY Gan, Ziyian Kwan, Sammy Chien, Caroline
+                            MacCaull,Arash Khakpour, Emmalena Fredriksson and Zahra Shahab. </p>
+                        <p>Dance to Juolin is a portal to indescribable emotions and complex, swerving stories.</p>
+                        <p>Through openness and curiosity she wishes to continuously unpack her idea of self and her
+                            relationship with the world.
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
         </div>
         <!-- Work1 -->
         <div id="nav_Work1">
-        <div id="Work1">
-            <div class="Title">Work.</div>
-            <div class="Work-Content">
-                <div class="Subtitle">/ Newest Creation</div>
-                <!-- 照片 -->
-                <div class="pic">
-                    <img class="Work-img" src="./WebsiteMaterial/Work/Luna/Lunaphoto/P2.jpg" alt="">
-                </div>
-                <!-- 作品名稱 -->
-                <div class="WorkName">Luna</div>
-                <!-- 右側介紹文字 -->
-                <div class="introtxt">
-                    Sometime when life get intense and overwhelming,I find my mind wondering while I try to accomplish
-                    the mundane, everyday tasks.
-                    The matcha green Tatung Rice Cooker on stage is a traditional Taiwanese kitchenware.
-                    It is one of the first things my mom received from a distance relative after arriving in Canada ten
-                    years ago.
-                    Tatung Rice Cooker sits in every Taiwanese household.
-                    It is a very practical and important helper in the kitchen, and a symbol of home,familiarity and
-                    comforting warm dishes.
-                </div>
-                <!-- More按鈕 -->
-                <a class="Button-More" href="./WorkLuna.html">MORE<img src="./Logo&Icons/ICON-White/chevron-right.svg"
-                        alt="">
+            <div id="Work1">
+                <div class="Title">Work.</div>
+                <div class="Work-Content">
+                    <div class="Subtitle">/ Newest Creation</div>
+                    <!-- 照片 -->
+                    <div class="pic">
+                        <img class="Work-img" src="./WebsiteMaterial/Work/Luna/Lunaphoto/P2.jpg" alt="">
+                    </div>
+                    <!-- 作品名稱 -->
+                    <div class="WorkName">Luna</div>
+                    <!-- 右側介紹文字 -->
+                    <div class="introtxt">
+                        Sometime when life get intense and overwhelming,I find my mind wondering while I try to
+                        accomplish
+                        the mundane, everyday tasks.
+                        The matcha green Tatung Rice Cooker on stage is a traditional Taiwanese kitchenware.
+                        It is one of the first things my mom received from a distance relative after arriving in Canada
+                        ten
+                        years ago.
+                        Tatung Rice Cooker sits in every Taiwanese household.
+                        It is a very practical and important helper in the kitchen, and a symbol of home,familiarity and
+                        comforting warm dishes.
+                    </div>
+                    <!-- More按鈕 -->
+                    <a class="Button-More" href="./WorkLuna.html">MORE<img
+                            src="./Logo&Icons/ICON-White/chevron-right.svg" alt="">
 
-                </a>
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
         <!-- Curiosity -->
         <div id="Curiosity">
             <img src="./Logo&Icons/Curiosities-small.svg" alt="">
@@ -770,58 +793,58 @@
         </div>
         <!-- Performance -->
         <div id="nav_Performance">
-        <div id="Performance">
-            <div class="Title">Performance Info.</div>
-            <div class="Performance-Content">
-                <div class="Subtitle">/ The most recent performance</div>
-                <!-- 照片 -->
-                <div class="pic">
-                    <img src="./WebsiteMaterial/Performance/BabyUniverseRMT/Pic1.jpg" alt="">
-                </div>
-                <!-- 表演名稱 -->
-                <div class="PerformanceName">
-                    Baby Universe, RMT
-                </div>
-                <!-- 狀態 -->
-                <div class="PerformanceStatus">
-                    in indevelopment
-                </div>
-                <div class="Performance-info">
-                    <!-- Producer -->
-                    <p>By Hong Kong Exile, Choreographed by Natalie TY Gan</p>
-                    <!-- 表演時間 -->
-                    <p>Performance：Feb 4th 2023, 2pm & 9pm</p>
-                    <!-- 表演地點 -->
-                    <p>Location：Russian Hall</p>
-                </div>
-                <!-- 介紹文字 -->
-                <div class="introtxt">
-                    <p>A program a part of PushOff 2023 Festival. </p>
-                    <p>A multimedia dance-theatre work currently in research and development phase that conjures
-                        spirit and story through light play and radio frequency. </p>
-                    <p>Think lo-fi outer space lecture meets holiday in the Holosuites. </p>
-                </div>
-                <!-- 按鈕 -->
-                <div class="button">
-                    <a class="MoreInfo" href="https://www.pushoff.org/live/baby-universe-rmt" target="_blank">
-                        More Info
-                    </a>
-                    <a class="OtherPerformance" href="./Performance.html">
-                        Other Performance
-                    </a>
+            <div id="Performance">
+                <div class="Title">Performance Info.</div>
+                <div class="Performance-Content">
+                    <div class="Subtitle">/ The most recent performance</div>
+                    <!-- 照片 -->
+                    <div class="pic">
+                        <img src="./WebsiteMaterial/Performance/BabyUniverseRMT/Pic1.jpg" alt="">
+                    </div>
+                    <!-- 表演名稱 -->
+                    <div class="PerformanceName">
+                        Baby Universe, RMT
+                    </div>
+                    <!-- 狀態 -->
+                    <div class="PerformanceStatus">
+                        in indevelopment
+                    </div>
+                    <div class="Performance-info">
+                        <!-- Producer -->
+                        <p>By Hong Kong Exile, Choreographed by Natalie TY Gan</p>
+                        <!-- 表演時間 -->
+                        <p>Performance：Feb 4th 2023, 2pm & 9pm</p>
+                        <!-- 表演地點 -->
+                        <p>Location：Russian Hall</p>
+                    </div>
+                    <!-- 介紹文字 -->
+                    <div class="introtxt">
+                        <p>A program a part of PushOff 2023 Festival. </p>
+                        <p>A multimedia dance-theatre work currently in research and development phase that conjures
+                            spirit and story through light play and radio frequency. </p>
+                        <p>Think lo-fi outer space lecture meets holiday in the Holosuites. </p>
+                    </div>
+                    <!-- 按鈕 -->
+                    <div class="button">
+                        <a class="MoreInfo" href="https://www.pushoff.org/live/baby-universe-rmt" target="_blank">
+                            More Info
+                        </a>
+                        <a class="OtherPerformance" href="./Performance.html">
+                            Other Performance
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
         <!-- Contact me -->
         <div id="nav_Contact">
-        <div id="Contact">
-            <div class="Title">Contact me</div>
-            <button id="email-button" type="button" onclick="copyEvent('copy')">
-                <p id="copy" >juolinlee@gmail.com</p> 
-                <img src="./Logo&Icons/ICON-White/copy.svg" alt="">
-            </button>
-        </div>
+            <div id="Contact">
+                <div class="Title">Contact me</div>
+                <button id="email-button" type="button" onclick="copyEvent('copy')">
+                    <p id="copy">juolinlee@gmail.com</p>
+                    <img src="./Logo&Icons/ICON-White/copy.svg" alt="">
+                </button>
+            </div>
         </div>
         <!-- Gallery -->
         <div id="Gallery">

@@ -6,9 +6,9 @@ body {
     letter-spacing: 0.05rem;
 }
 
-html{
+html {
     scroll-behavior: smooth;
-  }
+}
 
 .container2 {
     display: none;
@@ -16,7 +16,7 @@ html{
 }
 
 .container {
-    width: 1920px;
+    width: 100vw;
     margin: 0 auto;
 }
 
@@ -24,30 +24,34 @@ html{
 nav {
     z-index: 9999;
     position: fixed;
-    top: 0;
+    top: 12px;
     padding: 0;
-    width: 1920px;
+    width: 100%;
     height: 80px;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
 #nav .SocialMedia a {
     float: right;
+    display: block;
 }
 
 #nav .SocialMedia img {
     width: 60px;
     margin-top: 10px;
+
 }
 
 #nav .SocialMedia {
-    float: right;
-    margin-right: 60px;
+    order: 2;
+    position: absolute;
+    right: 80px;
 }
 
 #nav ul {
-    float: right;
-    margin-right: 90px;
+    align-self: center;
 }
 
 #nav ul li {
@@ -55,9 +59,7 @@ nav {
     text-align: center;
     float: left;
     margin: 0 27px;
-
 }
-
 
 
 #nav ul li:nth-child(5) {
@@ -90,6 +92,8 @@ nav {
 
 #nav .links a {
     width: 233px;
+    height: 80px;
+
 }
 
 /* Header */
@@ -97,26 +101,9 @@ nav {
     width: 1920px;
     height: 1080px;
     position: relative;
-    overflow:hidden;
+    overflow: hidden;
 }
 
-#carousel {
-    width: 1920px;
-    height: 1080px;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-#carousel ul,#carousel ul li{
-    width: 1920px;
-    height: 1080px;
-}
-
-.container #header img{
-    width: 1920px;
-    height: auto;
-}
 
 
 .container #header .Title {
@@ -142,25 +129,61 @@ nav {
     display: none;
 }
 
+.slider {
+    width: 100%;
+    height: 100%;
+}
+
+.slick-slide {
+    margin: 0;
+}
+
+.slick-slide img {
+    width: 100%;
+    height: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    display: none;
+}
+
+
+.slick-slide {
+    transition: all ease-in-out 1s;
+    opacity: 1;
+}
+
+.slick-active {
+    opacity: 1;
+}
+
+.slick-current {
+    opacity: 1;
+}
+
 
 
 /* Bio */
 #bio {
-    width: 1920px;
+    width: 100%;
     background-image: url("./WebsiteMaterial/Photos/pic9.JPG");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 10%;
     height: 1080px;
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
+}
+
+#bio .bio-content {
+    position: relative;
+    display: flex;
+    align-items: center;
 }
 
 #bio img {
-    left: 48px;
     position: absolute;
     z-index: 99999;
 }
@@ -169,16 +192,10 @@ nav {
     width: 1760px;
     height: 920px;
     background-color: rgba(0, 0, 0, 0.7);
-    position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
-    left: 80px;
-}
-
-.bio-Title,
-.bio-Subtitle {
-    display: none;
+    margin-left: 20px;
 }
 
 .biotxt {
@@ -197,7 +214,7 @@ nav {
 
 /* Work1 */
 #Work1 {
-    width: 1920px;
+    width: 100%;
     height: 1600px;
     margin: 0 auto;
 }
@@ -341,7 +358,7 @@ nav {
 
 /* 副標題 */
 #work2 {
-    width: 1920px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -453,13 +470,12 @@ nav {
 /* Curiosity */
 
 #Curiosity {
-    width: 1920px;
+    width: 100%;
     height: 360px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
     margin-top: 66px;
 }
 
@@ -470,8 +486,7 @@ nav {
 /* Performance */
 /* 區標題 */
 #Performance {
-    width: 1920px;
-    margin: 0 auto;
+    width: 100%;
 }
 
 #Performance .Title {
@@ -523,7 +538,7 @@ nav {
     margin-right: 60px;
 }
 
-#Performance .left-img{
+#Performance .left-img {
     width: 656px;
     height: 628px;
     background-image: url("./WebsiteMaterial/Performance/BabyUniverseRMT/Pic1.jpg");
@@ -620,10 +635,9 @@ nav {
 /* Gallery */
 
 #Gallery {
-    margin: 0 auto;
     margin-top: 160px;
     background-image: url("./WebsiteMaterial/Photos/DSC_2128\ copy.JPG");
-    width: 1920px;
+    width: 100%;
     height: 820px;
     background-position: 20%;
     background-size: cover;
@@ -631,7 +645,7 @@ nav {
 
 #Gallery .bg {
     background-color: rgba(0, 0, 0, 0.2);
-    width: 1920px;
+    width: 100%;
     height: 820px;
     display: flex;
     align-items: center;
@@ -673,9 +687,8 @@ nav {
 /* Contact */
 
 #Contact {
-    width: 1920px;
+    width: 100%;
     height: 960px;
-    margin: 0 auto;
     background-image: radial-gradient(circle, #FF901F 10%, #FE972D 15%, #FE972D 10%, #F4C494 100%, #ffff 80%, #F4C494 100%);
     background-repeat: no-repeat;
     color: #ffff;
@@ -760,10 +773,13 @@ p {
 
 /* IG Post */
 #IGPost {
-    width: 1920px;
+    width: 100%;
     height: 960px;
     position: relative;
-    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 #IGPost .Post-List {
@@ -773,8 +789,7 @@ p {
     align-items: center;
     justify-content: space-between;
     position: absolute;
-    top: 180px;
-    left: 320px;
+
 }
 
 #IGPost .Post {
@@ -783,6 +798,8 @@ p {
 
 #IGPost .Follow {
     position: absolute;
+    left: 0;
+    top: 0;
 }
 
 #IGPost .Id {

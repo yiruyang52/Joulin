@@ -1,28 +1,21 @@
 /* 1440 */
 @media(min-width:1366px) and (max-width:1919px) {
     .container {
-        width: 1440px;
-        margin: 0 auto;
+        width: 100vw;
         overflow: hidden;
     }
 
     /* nav */
     nav {
-        width: 1440px;
+        width: 100%;
+    top: 0;
     }
 
     #nav .SocialMedia img {
-        width: 44px;
-        margin-top: 18px;
+        width: 52px;
+        margin-top: 14px;
     }
 
-    #nav .SocialMedia {
-        margin-right: 40px;
-    }
-
-    #nav ul {
-        margin-right: 90px;
-    }
 
     #nav .links a {
         width: 165px;
@@ -35,8 +28,8 @@
 
     #nav ul li img {
         width: 165px;
-        height: 57px;
-        margin-top: 11.5px;
+        height: 40px;
+    margin-top: 20px;
     }
 
     #nav ul li {
@@ -45,24 +38,11 @@
 
     /* header */
     .container #header {
-        width: 1440px;
+        width: 100%;
         height: 800px;
         overflow: hidden;
     }
 
-    #carousel {
-        width: 1440px;
-        height: 800px;
-    }
-    #carousel ul,#carousel ul li{
-        width: 1440px;
-        height: 800px;
-    }
-
-    .container #header img {
-        width: 1440px;
-        height: auto;
-    }
 
     .container #header .Title {
         font-size: 4.38rem;
@@ -80,12 +60,10 @@
     /* bio */
     #bio {
         height: 800px;
-        width: 1440px;
-        margin: 0 auto;
+        width: 100%;
     }
 
     #bio img {
-        left: 28px;
         width: 72px;
         height: 597px;
     }
@@ -93,7 +71,7 @@
     .biotxt-Bg {
         width: 1336px;
         height: 688px;
-        left: 52px;
+
     }
 
     .biotxt {
@@ -111,8 +89,7 @@
     /* Work1 */
     #Work1 {
         height: 1140px;
-        width: 1440px;
-        margin: 0 auto;
+        width: 100%;
     }
 
     #Work1 .Title {
@@ -249,9 +226,8 @@
 
     #Curiosity {
         height: 256px;
-        width: 1440px;
-        margin: 0 auto;
-        margin-top: 52px;        
+        width: 100%;
+        margin-top: 52px;
     }
 
     #Curiosity img {
@@ -261,9 +237,7 @@
     /* Performance */
     /* 區標題 */
     #performance {
-        width: 1440px;
-        margin: 0 auto;
-        border: 1px solid red;
+        width: 100%;
     }
 
     #Performance .Title {
@@ -292,7 +266,7 @@
 
     /* 表演資訊 */
     #Performance .Performance-Content {
-        width: 1440px;
+        width: 100%;
     }
 
     #Performance .right-intro {
@@ -300,7 +274,7 @@
         margin-right: 62px;
     }
 
-    #Performance .left-img{
+    #Performance .left-img {
         width: 520px;
         height: 468px;
         box-shadow: 2px 2px 2px rgba(82, 59, 35, 0.3);
@@ -358,8 +332,7 @@
     /* Gallery */
 
     #Gallery {
-        width: 1440px;
-        margin: 0 auto;
+        width: 100%;
         margin-top: 120px;
         height: 580px;
     }
@@ -398,8 +371,7 @@
 
     #Contact {
         height: 800px;
-        width: 1440px;
-        margin: 0 auto;
+        width: 100%;
     }
 
 
@@ -443,8 +415,7 @@
     /* IG Post */
     #IGPost {
         height: 800px;
-        width: 1440px;
-        margin: 0 auto;
+        width: 100%;
     }
 
     #IGPost .Post-List {
@@ -514,23 +485,19 @@
 /* 768 */
 @media(min-width:768px) and (max-width:1365px) {
     .container {
-        width: 768px;
-        margin: 0 auto;
+        width: 100vw;
         overflow: hidden;
     }
 
     /* nav */
     nav {
-        width: 768px;
+        width: 100%;
         height: 60px;
+
     }
 
-    #nav .SocialMedia img {
+    #nav .SocialMedia {
         display: none;
-    }
-
-    #nav ul {
-        margin-right: 19px;
     }
 
     #nav .links a {
@@ -553,29 +520,10 @@
 
     /* header */
     .container #header {
-        width: 768px;
-        height: 416px;
+        width: 100%;
+        height: 480px;
         position: relative;
         overflow: hidden;
-
-    }
-
-    #carousel {
-        position: absolute;
-        width: auto;
-        height: 416px;
-        top: 0;
-        left: 0;
-    }
-
-    #carousel ul,#carousel ul li{
-        width: 768px;
-        height: 416px;
-    }
-
-    .container #header img {
-        width: 768px;
-        height: auto;
     }
 
     .container #header .Title {
@@ -605,16 +553,15 @@
         flex-direction: row;
         width: 88px;
         height: 44px;
-        bottom: 16px;
-        right: 24px;
+        bottom: 40px;
+        right: 40px;
         z-index: 999;
     }
 
     /* bio */
     #bio {
         height: 400px;
-        width: 768px;
-        margin: 0 auto;
+        width: 100%;
     }
 
     #bio img {
@@ -644,12 +591,10 @@
     }
 
 
-
     /* Work1 */
     #Work1 {
         height: 840px;
-        width: 768px;
-        margin: 0 auto;
+        width: 100%;
     }
 
     #Work1 .Title {
@@ -739,8 +684,7 @@
 
     /* Work2 */
     #Work2 {
-        width: 768px;
-        margin: 0 auto;
+        width: 100%;
     }
 
     #Work2 .Subtitle {
@@ -810,9 +754,7 @@
     /* Performance */
     /* 區標題 */
     #performance {
-        width: 768px;
-        margin: 0 auto;
-
+        width: 100%;
     }
 
     #Performance .Title {
@@ -840,7 +782,8 @@
 
     /* 表演資訊 */
     #Performance .Performance-Content {
-        width: 768px;
+        width: 100%;
+
     }
 
     #Performance .right-intro {
@@ -848,7 +791,7 @@
         margin-left: 32px;
     }
 
-    #Performance .left-img{
+    #Performance .left-img {
         width: 260px;
         height: 260px;
         background-position: 30%;
@@ -919,13 +862,12 @@
 
     #Gallery {
         height: 320px;
-        width: 768px;
-        margin: 0 auto;
+        width: 100%;
         margin-top: 48px;
     }
 
     #Gallery .bg {
-        width: 768px;
+        width: 100%;
         height: 320px;
     }
 
@@ -962,8 +904,7 @@
 
     #Contact {
         height: 600px;
-        width: 768px;
-        margin: 0 auto;
+        width: 100%;
     }
 
 
@@ -1005,15 +946,12 @@
     /* IG Post */
     #IGPost {
         height: 800px;
-        width: 768px;
-        margin: 0 auto;
+        width: 100%;
     }
 
     #IGPost .Post-List {
         width: 680px;
         height: 500px;
-        top: 159px;
-        left: 44px;
     }
 
     #IGPost .Post {
@@ -1108,24 +1046,29 @@
         height: 40px;
         z-index: 99999;
         position: fixed;
-        top: 0;
+        top: 12px;
         padding: 0;
-        overflow: visible;
-        padding-top: 8px;
         padding-right: 16px;
-        margin: 0 auto;
+    }
+
+    #nav_small .logo a {
+        display: block;
+        height: 40px;
+        width: 109px;
+        float: left;
     }
 
     #nav_small .logo img {
         height: 28px;
-        float: left;
+        margin-top: 6px;
     }
 
     #nav_small .SocialMedia img {
-        width: 32px;
-        height: 32px;
+        width: 40px;
+        height: 40px;
         float: right;
         margin-top: 0;
+        margin-right: 4px;
     }
 
     #nav_small .SocialMedia {
@@ -1135,19 +1078,20 @@
     #nav_small #close {
         display: none;
         transition: all 1s;
+
     }
 
     #nav_small .sidebar_switch {
-        width: 32px;
-        height: 32px;
+        width: 40px;
+        height: 40px;
         float: right;
         position: relative;
     }
 
 
     #nav_small button img {
-        width: 32px;
-        height: 32px;
+        width: 40px;
+        height: 40px;
         float: right;
         position: absolute;
         right: 0;
@@ -1177,7 +1121,7 @@
         line-height: 1.5rem;
     }
 
-    
+
     /* header */
     #header {
         width: 100%;
@@ -1185,7 +1129,7 @@
         margin: 0 auto;
         overflow: hidden;
         display: flex;
-    flex-direction: column;
+        flex-direction: column;
     }
 
     #header img {
@@ -1395,7 +1339,7 @@
         margin: 0 auto;
     }
 
-    #Work2 .Box:nth-child(2){
+    #Work2 .Box:nth-child(2) {
         order: -1;
     }
 
@@ -1459,7 +1403,7 @@
         height: 201px;
         border-bottom: 1px solid #CA5500;
         margin-bottom: 16px;
-        
+
     }
 
     #Work2 .Work-List {

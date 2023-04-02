@@ -75,13 +75,6 @@ function list_open() {
     else{document.getElementById('option-list') .style.display='none'}
 }
 
-// carousel
-$(function () {
-    $('#carousel').jCarouselLite({
-        auto:1300, //多久時間動一次
-        speed:2000, //移動速度
-        scroll:1, //每次捲動的張數
-        visible:1 //每次畫面可以看到的張數
-    });
-});
+
+
 
