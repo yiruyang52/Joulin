@@ -4,6 +4,7 @@ body {
     background-color: #FCF3EA;
     font-family: 'Noto Serif TC', 'Noto Serif', serif;
     letter-spacing: 0.05rem;
+    margin: 0;
 }
 
 html {
@@ -175,6 +176,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 #bio .bio-content {
