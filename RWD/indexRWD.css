@@ -667,7 +667,7 @@
         font-size: 0.875rem;
         line-height: 1.75rem;
         font-weight: lighter;
-margin-right: 40px;
+        margin-right: 40px;
     }
 
     /* 按鈕 */
@@ -923,7 +923,7 @@ margin-right: 40px;
         font-size: 1.5rem;
     }
 
-    #Contact .right-content{
+    #Contact .right-content {
         margin: 62px 0;
     }
 
@@ -1048,11 +1048,8 @@ margin-right: 40px;
 
     .container2 {
         width: 100vw;
-        margin: 0 auto;
         display: block;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+
     }
 
     /* nav */
@@ -1064,19 +1061,24 @@ margin-right: 40px;
         position: fixed;
         top: 12px;
         padding: 0;
-        padding-right: 16px;
+        /* padding-right: 16px; */
+        right: 0;
+        left: 0;
     }
+
 
     #nav_small .logo a {
         display: block;
         height: 40px;
         width: 109px;
         float: left;
+
     }
 
     #nav_small .logo img {
         height: 28px;
         margin-top: 6px;
+
     }
 
     #nav_small .SocialMedia img {
@@ -1094,7 +1096,6 @@ margin-right: 40px;
     #nav_small #close {
         display: none;
         transition: all 1s;
-
     }
 
     #nav_small .sidebar_switch {
@@ -1104,6 +1105,10 @@ margin-right: 40px;
         position: relative;
     }
 
+    #nav_small button {
+        background-color: #f4c49400;
+        border: none;
+    }
 
     #nav_small button img {
         width: 40px;
@@ -1142,10 +1147,10 @@ margin-right: 40px;
     #header {
         width: 100%;
         height: 812px;
-        margin: 0 auto;
         overflow: hidden;
         display: flex;
         flex-direction: column;
+
     }
 
     #header img {
@@ -1433,9 +1438,9 @@ margin-right: 40px;
     /* Performance */
     /* 區標題 */
     #Performance {
-        height: 798px;
+        height: auto;
         width: 100%;
-        margin: 0 auto;
+        margin-bottom: 20px;
     }
 
     #Performance .Performance-Content {
@@ -1664,7 +1669,7 @@ margin-right: 40px;
     }
 
     #Footer .info {
-        width: 360px;
+        width: auto;
         height: 88px;
         margin-left: 20px;
         margin-top: 32px;
