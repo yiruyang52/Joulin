@@ -764,6 +764,7 @@ p {
     border: #CA5500;
     box-shadow: 0px 2px 4px rgba(82, 59, 35, 0.6);
     font-size: 24px;
+    font-family: 'Noto Serif TC', 'Noto Serif', serif;
 
 }
 
@@ -850,7 +851,7 @@ p {
     width: 440px;
     height: 119px;
     margin-left: 120px;
-    margin-top: 20px;
+    margin-top: 28px;
     padding-left: 20px;
     border-left: 1px solid #fff;
 }
@@ -858,11 +859,13 @@ p {
 #Footer .info p {
     font-size: 1.25rem;
     line-height: 2.5rem;
+    margin: 0;
 }
 
 #Footer .info .Subtitle {
     font-size: 1.5rem;
     line-height: 40px;
+    margin: 0;
 }
 
 #Footer a {

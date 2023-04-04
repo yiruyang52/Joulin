@@ -562,13 +562,13 @@
     #bio {
         height: 400px;
         width: 100%;
-        padding: 20px 0;
+        padding: 40px 0;
     }
 
     #bio .bio-content {
         width: 100%;
         height: 100%;
-        margin: 20px;
+        margin: 0 20px;
     }
 
     #bio img {
@@ -600,8 +600,9 @@
 
     /* Work1 */
     #Work1 {
-        height: 840px;
+        height: auto;
         width: 100%;
+        margin-bottom: 80px;
     }
 
     #Work1 .Title {
@@ -650,7 +651,7 @@
         font-size: 2.5rem;
         line-height: 2.75rem;
         height: 44px;
-        width: 480px;
+        width: 100%;
         margin: 12px 0;
         letter-spacing: 0.06rem;
     }
@@ -658,13 +659,15 @@
     /* 右區作品介紹文字 */
     #Work1 .introtxt {
         margin-bottom: 28px;
-        width: 488px;
+        width: 100%;
+
     }
 
     #Work1 .introtxt p {
         font-size: 0.875rem;
         line-height: 1.75rem;
         font-weight: lighter;
+margin-right: 40px;
     }
 
     /* 按鈕 */
@@ -685,7 +688,8 @@
 
     /* 右區排列 */
     #Work1 .right-intro {
-        width: 520px;
+        width: 100%;
+        margin-left: 48px;
     }
 
 
@@ -910,8 +914,8 @@
     /* Contact */
 
     #Contact {
-        height: 600px;
         width: 100%;
+        height: auto;
     }
 
 
@@ -919,6 +923,9 @@
         font-size: 1.5rem;
     }
 
+    #Contact .right-content{
+        margin: 62px 0;
+    }
 
     form {
         width: 348px;
@@ -1143,7 +1150,6 @@
 
     #header img {
         height: 812px;
-        /* position: relative; */
         align-self: center;
     }
 
