@@ -579,7 +579,7 @@
 
     .biotxt-Bg {
         width: 100%;
-        height: 100%;
+        height: auto;
         margin-left: 0;
         padding: 20px 24px;
     }
