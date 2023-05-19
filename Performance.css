@@ -145,6 +145,7 @@ nav {
 
 .block-options .PerformanceName{
     margin-top: 20px;
+    
 }
 
 .PerformanceStatus {
@@ -163,12 +164,20 @@ nav {
     margin-top: 8px;
 }
 
+
+
 .Performance-info p {
     font-size: 1.25rem;
     color: #CA5500;
     margin-bottom: 4px;
     line-height: 2.5rem;
     text-align: center;
+
+}
+
+.p-more p {
+    margin-bottom: 0;
+    line-height: 2.5rem;
 }
 
 .introtxt p {
@@ -178,6 +187,7 @@ nav {
     font-weight: 400;
     text-align: center;
 }
+
 
 .introtxt {
     margin: 24px auto;

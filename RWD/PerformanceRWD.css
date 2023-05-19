@@ -99,6 +99,11 @@
         line-height: 2.25rem;
     }
 
+    .p-more p {
+        margin-bottom: 8px;
+        line-height: 1.75rem;
+    }
+
     .introtxt p {
         line-height: 2rem;
         font-size: 1rem;

@@ -532,19 +532,28 @@ nav {
 
 #Performance .Performance-Content {
     display: flex;
-    justify-content: space-between;
 }
 
 #Performance .right-intro {
     width: 1140px;
-    margin-right: 60px;
+    margin-left: 68px;
 }
 
 #Performance .left-img {
     width: 656px;
     height: 628px;
-    background-image: url("./WebsiteMaterial/Performance/BabyUniverseRMT/Pic1.jpg");
+    background-image: url("./WebsiteMaterial/Performance/LunaBowlofJasmine/p1.JPG");
     background-size: cover;
+    box-shadow: 2px 2px 2px rgba(82, 59, 35, 0.3);
+    background-position: 30%;
+}
+
+#Performance .left-img-2 {
+    width: 656px;
+    height: 628px;
+    background-image: url("./WebsiteMaterial/Performance/IntotheLittleHill/p1.png");
+    background-size: cover;
+    background-position: 40%;
     box-shadow: 2px 2px 2px rgba(82, 59, 35, 0.3);
     overflow: hidden;
 }
@@ -560,9 +569,10 @@ nav {
     font-weight: bold;
     line-height: 120px;
     color: #D98A3B;
+    margin-bottom: 10px;
 }
 
-#Performance .PerformanceStatus {
+/* #Performance .PerformanceStatus {
     color: #fff;
     background-color: #CA5500;
     width: 180px;
@@ -572,7 +582,7 @@ nav {
     border-radius: 40px;
     margin-bottom: 40px;
     font-size: 1rem;
-}
+} */
 
 #Performance .Performance-info p {
     font-size: 1.5rem;
@@ -596,6 +606,7 @@ nav {
 /* 按鈕 */
 #Performance .button {
     display: flex;
+
 }
 
 #Performance .right-intro .MoreInfo {
@@ -632,6 +643,10 @@ nav {
 #Performance .right-intro a:hover {
     color: #fff;
     background-color: #CA5500;
+}
+
+.Performance-box{
+    margin-bottom: 80px;
 }
 
 /* Gallery */

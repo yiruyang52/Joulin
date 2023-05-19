@@ -265,20 +265,11 @@
 
 
     /* 表演資訊 */
-    #Performance .Performance-Content {
-        width: 100%;
-    }
 
-    #Performance .right-intro {
-        width: 790px;
-        margin-right: 62px;
-    }
-
-    #Performance .left-img {
+    #Performance .left-img,#Performance .left-img-2 {
         width: 520px;
         height: 468px;
         box-shadow: 2px 2px 2px rgba(82, 59, 35, 0.3);
-        overflow: hidden;
     }
 
     /* 右區作品介紹文字 */
@@ -792,23 +783,23 @@
 
 
     /* 表演資訊 */
-    #Performance .Performance-Content {
-        width: 100%;
-
-    }
-
-    #Performance .right-intro {
-        width: 500px;
-        margin-left: 32px;
-    }
-
-    #Performance .left-img {
-        width: 260px;
+    
+    #Performance .left-img, #Performance .left-img-2 {
+        width: 320px;
         height: 260px;
         background-position: 30%;
         box-shadow: 2px 2px 2px rgba(82, 59, 35, 0.3);
-        overflow: hidden;
     }
+
+    #Performance .right-intro {
+        width: 564px;
+        margin-left: 32px;
+        padding-right: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    
 
 
     /* 右區作品介紹文字 */
@@ -816,6 +807,7 @@
     #Performance .PerformanceName {
         font-size: 2rem;
         line-height: 2rem;
+        margin-bottom: 20px;
     }
 
     #Performance .PerformanceStatus {
@@ -839,8 +831,10 @@
 
     #Performance .introtxt2 {
         display: block;
-        width: 720px;
+        width: 100%;
+      
         margin: 28px 40px;
+        padding-right:80px;
     }
 
     #Performance .introtxt2 p {
@@ -865,8 +859,12 @@
         border: 1px solid #CA5500;
     }
 
-    #Performance .button {
-        margin-top: 16px;
+    #Performance .right-intro .button {
+        margin-top: 40px;
+    }
+
+    .Performance-box{
+        margin-bottom: 40px;
     }
 
     /* Gallery */
@@ -1449,6 +1447,7 @@
         align-items: center;
         width: 335px;
         margin: 0 auto;
+        margin-bottom: 40px;
     }
 
     #Performance .Title {
