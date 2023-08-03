@@ -1,5 +1,5 @@
 /* 1440 */
-@media(min-width:1366px) and (max-width:1919px) {
+@media(min-width:1360px) and (max-width:1919px) {
     .container {
         width: 1440px;
         margin: 0 auto;
@@ -63,7 +63,12 @@
 
     .intro {
         width: 720px;
-        height: 514px;
+            height: 100%;
+           padding: 0 40px;
+    }
+
+    .block-options .intro{
+   margin-top: 40px;
     }
 
     .block img {
@@ -94,26 +99,25 @@
     }
 
     .Performance-info p {
-        font-size: 1.125rem;
+        font-size: 1rem;
         margin-bottom: 4px;
-        line-height: 2.25rem;
+        line-height: 1.5rem;
     }
 
     .p-more p {
         margin-bottom: 8px;
-        line-height: 1.75rem;
+        line-height: 1.5rem;
     }
 
     .introtxt p {
-        line-height: 2rem;
+        line-height: 1.5rem;
         font-size: 1rem;
         font-weight: 400;
     }
 
     .introtxt {
         margin: 16px auto;
-        width: 660px;
-
+    
     }
 
     /* 按鈕-無選項 */
@@ -123,10 +127,10 @@
     }
 
     .intro a {
-        width: 300px;
-        height: 46px;
+        width: 280px;
+        height: 44px;
         font-size: 1rem;
-        border: 2px solid #CA5500;
+        border: 1.6px solid #CA5500;
         box-shadow: 0px 2px 4px rgba(82, 59, 35, 0.6);
         margin-bottom: 40px;
         margin-top: 4px;
@@ -143,10 +147,10 @@
     .button-option ul li a {
         padding-left: 16px;
         padding-right: 16px;
-        width: 300px;
-        height: 46px;
+        width: 280px;
+        height: 44px;
         font-size: 1rem;
-        border: 2px solid #CA5500;
+        border: 1.6px solid #CA5500;
     }
 
 
@@ -197,7 +201,7 @@
 }
 
 /* 768 */
-@media(min-width:768px) and (max-width:1365px) {
+@media(min-width:768px) and (max-width:1359px) {
     .container {
         width: 768px;
         margin: 0 auto;
@@ -263,7 +267,15 @@
 
     .intro {
         width: 700px;
-        height: 500px;
+        height: 100%;
+        padding: 0 20px;
+    }
+
+    .block-options{
+        margin-bottom: 40px;
+    }
+    .block-options .intro{
+   margin-top: 0;
     }
 
     .block img {
@@ -278,7 +290,7 @@
     }
 
     .block-options .PerformanceName {
-        margin-top: 40px;
+        margin-top: 20px;
     }
 
     .PerformanceStatus {
@@ -294,13 +306,13 @@
     }
 
     .Performance-info p {
-        font-size: 1.125rem;
-        margin-bottom: 4px;
-        line-height: 2.25rem;
+        font-size: 1rem;
+        margin-bottom: 8px;
+        line-height: 1.5rem;
     }
 
     .introtxt p {
-        line-height: 2rem;
+        line-height: 1.5rem;
         font-size: 1rem;
         font-weight: 400;
     }
@@ -309,6 +321,8 @@
         margin: 12px auto;
         width: 660px;
     }
+
+    
 
     /* 按鈕-無選項 */
     .button a .svg {
@@ -330,6 +344,7 @@
     .button-option a .svg,.svg-option {
         width: 16px;
         height: 16px;
+
     }
 
     .button-option ul li a {
@@ -515,7 +530,13 @@
         height: auto;
         align-items: flex-start;
         margin-bottom: 36px;
+            padding: 0;
     }
+
+    .block-options .intro{
+        margin-top: 0;
+        margin: 0 auto;
+     }
 
     .block img {
         width: 375px;
@@ -550,14 +571,14 @@
     .Performance-info p {
         font-size: 0.75rem;
         margin-bottom: 8px;
-        line-height: 1.5rem;
+        line-height: 1.2rem;
         letter-spacing: 0.02rem;
         text-align: start;
         font-weight: bold;
     }
 
     .introtxt p {
-        line-height: 1.75rem;
+        line-height: 1.5rem;
         font-size: 0.875rem;
         font-weight: 400;
         letter-spacing: 0.02rem;
@@ -569,9 +590,11 @@
         width: 340px;
     }
 
+    
+
     /* 按鈕-無選項 */
     .button{
-       align-self: center;
+       justify-content: center;
 
     }
 

@@ -1,5 +1,5 @@
 /* 1440 */
-@media(min-width:1366px) and (max-width:1919px) {
+@media(min-width:1360px) and (max-width:1919px) {
     .container {
         width: 100vw;
         overflow: hidden;
@@ -268,8 +268,9 @@
 
     #Performance .left-img,#Performance .left-img-2 {
         width: 520px;
-        height: 468px;
-        box-shadow: 2px 2px 2px rgba(82, 59, 35, 0.3);
+    height: 400px;
+    /* border: 1px solid red; */
+
     }
 
     /* 右區作品介紹文字 */
@@ -474,7 +475,7 @@
 }
 
 /* 768 */
-@media(min-width:768px) and (max-width:1365px) {
+@media(min-width:768px) and (max-width:1359px) {
     .container {
         width: 100vw;
         overflow: hidden;
@@ -785,15 +786,13 @@
     /* 表演資訊 */
     
     #Performance .left-img, #Performance .left-img-2 {
-        width: 320px;
-        height: 260px;
-        background-position: 30%;
-        box-shadow: 2px 2px 2px rgba(82, 59, 35, 0.3);
+        width: 360px;
+        height: 240px;
     }
 
     #Performance .right-intro {
         width: 564px;
-        margin-left: 32px;
+        margin-left: 28px;
         padding-right: 20px;
         display: flex;
         flex-direction: column;
@@ -860,7 +859,7 @@
     }
 
     #Performance .right-intro .button {
-        margin-top: 40px;
+        margin-top: 20px;
     }
 
     .Performance-box{
@@ -1301,7 +1300,7 @@
         width: 335px;
         height: 100px;
         font-size: 0.75rem;
-        line-height: 1.5rem;
+        line-height: 1.2rem;
         font-weight: lighter;
         display: -webkit-inline-box;
         -webkit-box-orient: vertical;
@@ -1400,7 +1399,7 @@
         width: 192px;
         height: 100px;
         font-size: 0.75rem;
-        line-height: 1.5rem;
+        line-height: 1.2rem;
         font-weight: lighter;
         display: -webkit-inline-box;
         -webkit-box-orient: vertical;
@@ -1501,8 +1500,8 @@
 
     #Performance .Performance-info p {
         font-size: 0.75rem;
-        line-height: 1.5rem;
-        margin-bottom: 0;
+        line-height: 1.2rem;
+        margin-bottom: 8px;
         letter-spacing: 0rem;
         font-weight: 600;
     }
@@ -1515,7 +1514,7 @@
 
     #Performance .introtxt p {
         font-size: 0.75rem;
-        line-height: 1.5rem;
+        line-height: 1.2rem;
         font-weight: lighter;
         letter-spacing: 0.01rem;
         color: #523B23;

@@ -117,15 +117,19 @@ nav {
 
 .intro {
     width: 960px;
-    height: 680px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-   justify-content: center;
+   justify-content: start;
+   padding: 0 60px;
 }
 
+
+
 .block-options .intro{
-   justify-content: start;
+   align-self: start;
+   margin-top: 12px;
 }
 
 
@@ -140,12 +144,13 @@ nav {
     font-weight: bold;
     line-height: 7.5rem;
     color: #D98A3B;
-    text-align: center;
+    text-align: start;
+    width: 100%;
+
 }
 
 .block-options .PerformanceName{
     margin-top: 20px;
-    
 }
 
 .PerformanceStatus {
@@ -162,6 +167,8 @@ nav {
 
 .Performance-info {
     margin-top: 8px;
+    width: 100%;
+
 }
 
 
@@ -169,34 +176,41 @@ nav {
 .Performance-info p {
     font-size: 1.25rem;
     color: #CA5500;
-    margin-bottom: 4px;
+    margin-bottom: 12px;
     line-height: 2.5rem;
-    text-align: center;
-
+    text-align: left;
+    width: 100%;
 }
 
 .p-more p {
-    margin-bottom: 0;
-    line-height: 2.5rem;
+    line-height: 2rem;
+    text-align: left;
+    width: 100%;
+
 }
 
 .introtxt p {
-    line-height: 2.5rem;
+    line-height: 2rem;
     font-size: 1.125rem;
     color: #523B23;
     font-weight: 400;
-    text-align: center;
+    text-align: left;
+    width: 100%;
+
 }
 
 
 .introtxt {
     margin: 24px auto;
-    width: 660px;
+   margin-bottom: 40px;
+    width: 100%;
+
 }
 
 /* 按鈕-無選項 */
 .button {
     display: flex;
+    width: 100%;
 }
 
 .intro a {
@@ -204,12 +218,12 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 420px;
-    height: 64px;
+    width: 400px;
+    height: 60px;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: #CA5500;
-    border: 2px solid #CA5500;
+    border: 1.6px solid #CA5500;
     box-shadow: 0px 2px 4px rgba(82, 59, 35, 0.6);
     margin-top: 4px;
 }
@@ -269,12 +283,12 @@ nav {
     justify-content: space-between;
     padding-left: 28px;
     padding-right: 28px;
-    width: 420px;
-    height: 64px;
+    width: 400px;
+    height: 60px;
     text-decoration: none;
     font-size: 1.25rem;
     color: #CA5500;
-    border: 2px solid #CA5500;
+    border: 1.6px solid #CA5500;
     background-color: #FCF3EA;
 }
 
