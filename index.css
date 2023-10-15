@@ -541,11 +541,12 @@ nav {
 
 }
 
+/* 表演照片 電腦版 */
 #Performance .left-img {
     width: 680px;
     height: 570px;
-    background-image: url("./WebsiteMaterial/Performance/QueenOfCarthagePoster/QueenOfCarthagePoster.png");
-    background-size:cover;
+    background-image: url("./WebsiteMaterial/Performance/Luna_TaiwanFest/Luna\ 2.JPG");
+    background-size:cover; 
     background-position: center;
     box-shadow: 2px 2px 2px rgba(82, 59, 35, 0.3);
     /* border: 1px solid red; */
