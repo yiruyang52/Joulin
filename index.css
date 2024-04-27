@@ -99,7 +99,7 @@ nav {
 
 /* Header */
 .container #header {
-    width: 1920px;
+    /* width: 1920px; */
     height: 1080px;
     position: relative;
     overflow: hidden;
